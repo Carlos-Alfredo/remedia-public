@@ -1,0 +1,10 @@
+arm,action_class,n_false_positives
+Baseline,add,2
+Baseline,discontinue,1
+Baseline,increase_dosage,1
+Baseline,reduce_dosage,5
+RemedIA,add,14
+RemedIA,discontinue,9
+RemedIA,increase_dosage,9
+RemedIA,reduce_dosage,9
+RemedIA,replace,27

@@ -1,0 +1,150 @@
+case,title,tipo,remedia_correct,remedia_acceptable,remedia_debatable,remedia_incorrect,baseline_correct,baseline_acceptable,baseline_debatable,baseline_incorrect
+scot_09_01,Frailty without overt multimorbidity,manter,0,0,1,0,0,0,1,1
+scot_09_01,Frailty without overt multimorbidity,suspender,4,0,0,0,4,0,0,0
+scot_09_01,Frailty without overt multimorbidity,reduzir dose,0,0,0,0,0,0,1,1
+scot_09_01,Frailty without overt multimorbidity,substituir,3,0,0,0,0,0,0,0
+scot_09_01,Frailty without overt multimorbidity,iniciar,1,0,0,0,2,1,0,0
+scot_09_01,Frailty without overt multimorbidity,Total,8,0,1,0,6,1,2,2
+scot_09_02,Frailty with multimorbidity,manter,1,0,1,1,2,1,0,2
+scot_09_02,Frailty with multimorbidity,suspender,2,0,0,0,9,0,0,0
+scot_09_02,Frailty with multimorbidity,reduzir dose,3,0,0,2,3,0,0,0
+scot_09_02,Frailty with multimorbidity,aumentar dose,0,0,0,2,0,0,0,0
+scot_09_02,Frailty with multimorbidity,substituir,2,1,1,1,0,0,0,0
+scot_09_02,Frailty with multimorbidity,Total,8,1,2,6,14,1,0,2
+scot_09_03,Care home resident with multimorbidity,manter,1,1,3,0,1,1,2,0
+scot_09_03,Care home resident with multimorbidity,suspender,3,0,0,1,5,0,0,0
+scot_09_03,Care home resident with multimorbidity,reduzir dose,1,0,0,1,1,1,1,0
+scot_09_03,Care home resident with multimorbidity,substituir,1,0,1,0,0,0,0,0
+scot_09_03,Care home resident with multimorbidity,iniciar,1,0,0,0,0,1,0,0
+scot_09_03,Care home resident with multimorbidity,Total,7,1,4,2,7,3,3,0
+scot_09_04,Care home resident with multimorbidity including dementia,manter,1,0,1,1,0,1,0,3
+scot_09_04,Care home resident with multimorbidity including dementia,suspender,6,0,0,0,5,0,1,0
+scot_09_04,Care home resident with multimorbidity including dementia,substituir,2,0,0,0,1,0,0,0
+scot_09_04,Care home resident with multimorbidity including dementia,iniciar,1,1,0,0,0,1,0,0
+scot_09_04,Care home resident with multimorbidity including dementia,Total,10,1,1,1,6,2,1,3
+scot_09_05,Younger adult with intellectual disability in a care home,manter,1,0,0,0,1,0,1,0
+scot_09_05,Younger adult with intellectual disability in a care home,suspender,0,0,0,1,2,0,0,0
+scot_09_05,Younger adult with intellectual disability in a care home,reduzir dose,1,0,0,0,1,3,0,0
+scot_09_05,Younger adult with intellectual disability in a care home,aumentar dose,0,0,1,0,0,0,0,0
+scot_09_05,Younger adult with intellectual disability in a care home,substituir,3,1,0,0,0,0,0,0
+scot_09_05,Younger adult with intellectual disability in a care home,Total,5,1,1,1,4,3,1,0
+scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",manter,0,1,0,1,1,1,2,2
+scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",suspender,1,0,0,2,8,0,0,0
+scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",reduzir dose,0,0,1,1,2,0,1,0
+scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",aumentar dose,1,0,0,2,1,0,0,0
+scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",substituir,5,0,2,2,1,0,0,0
+scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",iniciar,6,0,0,0,5,0,0,0
+scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",Total,13,1,3,8,18,1,3,2
+scot_09_07,High risk combination – antiplatelet and anticoagulant,manter,1,1,1,1,1,1,1,0
+scot_09_07,High risk combination – antiplatelet and anticoagulant,suspender,1,0,1,2,3,1,0,0
+scot_09_07,High risk combination – antiplatelet and anticoagulant,reduzir dose,1,0,0,0,2,1,0,0
+scot_09_07,High risk combination – antiplatelet and anticoagulant,substituir,0,1,1,1,0,0,0,0
+scot_09_07,High risk combination – antiplatelet and anticoagulant,iniciar,0,0,1,0,0,0,0,0
+scot_09_07,High risk combination – antiplatelet and anticoagulant,Total,3,2,4,4,6,3,1,0
+scot_09_08,Chronic pain – opioids,manter,2,3,0,0,3,4,1,0
+scot_09_08,Chronic pain – opioids,suspender,3,0,1,0,4,0,0,0
+scot_09_08,Chronic pain – opioids,reduzir dose,3,0,0,0,3,0,0,0
+scot_09_08,Chronic pain – opioids,aumentar dose,0,0,0,1,0,0,0,0
+scot_09_08,Chronic pain – opioids,substituir,1,0,1,1,0,0,0,0
+scot_09_08,Chronic pain – opioids,iniciar,2,0,1,1,1,0,0,0
+scot_09_08,Chronic pain – opioids,Total,11,3,3,3,11,4,1,0
+scot_09_09,Chronic pain – anticonvulsants,manter,1,0,0,0,1,1,0,0
+scot_09_09,Chronic pain – anticonvulsants,suspender,0,0,0,0,1,0,0,0
+scot_09_09,Chronic pain – anticonvulsants,reduzir dose,0,0,0,0,0,1,0,0
+scot_09_09,Chronic pain – anticonvulsants,substituir,3,0,0,0,0,0,0,0
+scot_09_09,Chronic pain – anticonvulsants,Total,4,0,0,0,2,2,0,0
+scot_09_10,Chronic pain – Antidepressants,manter,1,1,0,2,2,2,0,1
+scot_09_10,Chronic pain – Antidepressants,suspender,0,0,0,0,1,0,0,0
+scot_09_10,Chronic pain – Antidepressants,reduzir dose,0,0,0,0,1,0,0,0
+scot_09_10,Chronic pain – Antidepressants,substituir,0,0,2,1,0,0,0,0
+scot_09_10,Chronic pain – Antidepressants,iniciar,0,0,1,0,0,1,0,0
+scot_09_10,Chronic pain – Antidepressants,Total,1,1,3,3,4,3,0,1
+scot_09_11,Type 2 diabetes mellitus with severe frailty,manter,2,5,1,1,6,3,2,1
+scot_09_11,Type 2 diabetes mellitus with severe frailty,suspender,7,0,0,0,7,1,0,0
+scot_09_11,Type 2 diabetes mellitus with severe frailty,reduzir dose,0,1,0,0,2,2,0,0
+scot_09_11,Type 2 diabetes mellitus with severe frailty,substituir,2,0,2,0,0,0,0,0
+scot_09_11,Type 2 diabetes mellitus with severe frailty,iniciar,0,1,2,0,0,1,1,0
+scot_09_11,Type 2 diabetes mellitus with severe frailty,Total,11,7,5,1,15,7,3,1
+scot_09_12,Chronic Constipation,manter,6,1,0,0,5,1,0,0
+scot_09_12,Chronic Constipation,suspender,1,0,0,1,6,0,0,0
+scot_09_12,Chronic Constipation,reduzir dose,1,0,0,0,2,0,0,0
+scot_09_12,Chronic Constipation,substituir,1,0,1,2,1,0,0,0
+scot_09_12,Chronic Constipation,iniciar,1,0,1,1,0,0,0,0
+scot_09_12,Chronic Constipation,Total,10,1,2,4,14,1,0,0
+scot_09_13,Adult with Parkinson’s disease,manter,1,2,2,0,1,1,2,0
+scot_09_13,Adult with Parkinson’s disease,suspender,1,0,0,0,1,0,0,0
+scot_09_13,Adult with Parkinson’s disease,reduzir dose,0,0,0,0,1,0,0,0
+scot_09_13,Adult with Parkinson’s disease,aumentar dose,0,0,0,0,1,0,0,0
+scot_09_13,Adult with Parkinson’s disease,substituir,2,0,0,0,1,0,0,0
+scot_09_13,Adult with Parkinson’s disease,Total,4,2,2,0,5,1,2,0
+scot_09_14,Depression and Health Inequalities,manter,2,0,0,0,2,0,0,0
+scot_09_14,Depression and Health Inequalities,aumentar dose,0,0,0,0,0,0,1,0
+scot_09_14,Depression and Health Inequalities,substituir,1,0,0,0,0,0,0,0
+scot_09_14,Depression and Health Inequalities,iniciar,0,0,0,0,0,1,0,0
+scot_09_14,Depression and Health Inequalities,Total,3,0,0,0,2,1,1,0
+scot_09_15,Anxiety,manter,0,0,0,0,1,0,0,0
+scot_09_15,Anxiety,Total,0,0,0,0,1,0,0,0
+scot_09_16,Post traumatic stress disorder with “street benzo” use,suspender,0,0,0,0,2,0,0,0
+scot_09_16,Post traumatic stress disorder with “street benzo” use,substituir,1,0,0,0,0,0,0,0
+scot_09_16,Post traumatic stress disorder with “street benzo” use,iniciar,0,0,0,0,3,0,0,0
+scot_09_16,Post traumatic stress disorder with “street benzo” use,Total,1,0,0,0,5,0,0,0
+scot_09_17,Bipolar disorder and lithium,manter,0,0,0,1,1,1,0,1
+scot_09_17,Bipolar disorder and lithium,suspender,0,0,0,0,1,0,0,0
+scot_09_17,Bipolar disorder and lithium,reduzir dose,1,0,0,0,1,0,0,0
+scot_09_17,Bipolar disorder and lithium,substituir,1,0,1,0,0,0,0,0
+scot_09_17,Bipolar disorder and lithium,Total,2,0,1,1,3,1,0,1
+scot_09_18,Antipsychotics in dementia,manter,0,0,0,2,0,0,1,2
+scot_09_18,Antipsychotics in dementia,suspender,1,0,0,0,4,0,0,0
+scot_09_18,Antipsychotics in dementia,reduzir dose,0,0,1,0,0,0,0,0
+scot_09_18,Antipsychotics in dementia,substituir,0,0,1,2,0,0,0,0
+scot_09_18,Antipsychotics in dementia,iniciar,0,1,0,0,2,1,0,0
+scot_09_18,Antipsychotics in dementia,Total,1,1,2,4,6,1,1,2
+scot_09_19,Antipsychotic use following recent hospital discharge,manter,0,1,0,1,1,0,0,0
+scot_09_19,Antipsychotic use following recent hospital discharge,suspender,3,0,0,0,6,0,0,0
+scot_09_19,Antipsychotic use following recent hospital discharge,iniciar,0,1,0,0,1,0,0,0
+scot_09_19,Antipsychotic use following recent hospital discharge,Total,3,2,0,1,8,0,0,0
+scot_09_20,Antibiotics - penicillin allergy de-labelling,manter,1,0,1,0,1,3,1,1
+scot_09_20,Antibiotics - penicillin allergy de-labelling,suspender,4,0,0,0,1,1,0,0
+scot_09_20,Antibiotics - penicillin allergy de-labelling,reduzir dose,1,0,0,0,0,0,0,0
+scot_09_20,Antibiotics - penicillin allergy de-labelling,aumentar dose,0,0,0,1,1,0,0,0
+scot_09_20,Antibiotics - penicillin allergy de-labelling,substituir,0,0,1,0,0,0,0,0
+scot_09_20,Antibiotics - penicillin allergy de-labelling,iniciar,1,0,1,0,1,0,0,0
+scot_09_20,Antibiotics - penicillin allergy de-labelling,Total,7,0,3,1,4,4,1,1
+scot_09_21,Antibiotics in end-of-life care,manter,0,0,0,2,0,0,0,0
+scot_09_21,Antibiotics in end-of-life care,suspender,5,0,0,0,9,0,0,0
+scot_09_21,Antibiotics in end-of-life care,substituir,0,2,1,1,0,0,0,0
+scot_09_21,Antibiotics in end-of-life care,iniciar,1,1,1,1,2,3,0,0
+scot_09_21,Antibiotics in end-of-life care,Total,6,3,2,4,11,3,0,0
+scot_09_22,Medication Sick Day Guidance (in nursing home resident),manter,3,3,0,0,3,5,2,0
+scot_09_22,Medication Sick Day Guidance (in nursing home resident),suspender,6,0,0,0,1,0,0,0
+scot_09_22,Medication Sick Day Guidance (in nursing home resident),reduzir dose,0,0,0,0,2,0,0,0
+scot_09_22,Medication Sick Day Guidance (in nursing home resident),substituir,0,1,0,0,0,0,0,0
+scot_09_22,Medication Sick Day Guidance (in nursing home resident),iniciar,0,0,1,1,0,0,1,0
+scot_09_22,Medication Sick Day Guidance (in nursing home resident),Total,9,4,1,1,6,5,3,0
+scot_09_23,Osteoporosis and risk of falls,manter,5,2,2,1,2,5,1,1
+scot_09_23,Osteoporosis and risk of falls,suspender,2,0,0,0,3,0,0,0
+scot_09_23,Osteoporosis and risk of falls,reduzir dose,0,0,0,0,1,0,0,0
+scot_09_23,Osteoporosis and risk of falls,aumentar dose,0,0,0,0,1,0,0,0
+scot_09_23,Osteoporosis and risk of falls,substituir,1,1,0,0,0,0,0,0
+scot_09_23,Osteoporosis and risk of falls,iniciar,1,0,0,0,0,0,0,0
+scot_09_23,Osteoporosis and risk of falls,Total,9,3,2,1,7,5,1,1
+scot_09_24,Palliative Care (Cardiovascular),manter,3,2,1,4,5,2,3,0
+scot_09_24,Palliative Care (Cardiovascular),suspender,2,0,0,0,8,1,0,0
+scot_09_24,Palliative Care (Cardiovascular),reduzir dose,1,0,1,1,1,0,0,0
+scot_09_24,Palliative Care (Cardiovascular),aumentar dose,2,0,2,0,1,0,0,0
+scot_09_24,Palliative Care (Cardiovascular),substituir,1,1,1,0,1,0,0,0
+scot_09_24,Palliative Care (Cardiovascular),iniciar,0,0,1,0,2,0,0,0
+scot_09_24,Palliative Care (Cardiovascular),Total,9,3,6,5,18,3,3,0
+scot_09_25,Palliative Care – End of Life Care,manter,1,0,1,3,1,0,0,0
+scot_09_25,Palliative Care – End of Life Care,suspender,1,0,0,0,10,1,0,0
+scot_09_25,Palliative Care – End of Life Care,reduzir dose,0,0,0,1,1,0,0,0
+scot_09_25,Palliative Care – End of Life Care,substituir,3,3,0,0,0,0,0,0
+scot_09_25,Palliative Care – End of Life Care,iniciar,2,1,0,0,3,0,0,0
+scot_09_25,Palliative Care – End of Life Care,Total,7,4,1,4,15,1,0,0
+scot_09_26,Drug dependency and requests for medication out of hours,manter,0,0,0,0,1,1,2,0
+scot_09_26,Drug dependency and requests for medication out of hours,suspender,3,0,0,0,3,0,0,0
+scot_09_26,Drug dependency and requests for medication out of hours,reduzir dose,0,0,0,0,0,0,1,0
+scot_09_26,Drug dependency and requests for medication out of hours,aumentar dose,0,1,0,0,0,0,0,0
+scot_09_26,Drug dependency and requests for medication out of hours,substituir,1,3,0,0,0,0,0,0
+scot_09_26,Drug dependency and requests for medication out of hours,iniciar,0,0,0,0,1,0,0,0
+scot_09_26,Drug dependency and requests for medication out of hours,Total,4,4,0,0,5,1,3,0

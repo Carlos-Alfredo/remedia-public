@@ -1,0 +1,53 @@
+arm,case,title,all_n,all_unrated,all_correct,all_acceptable,all_debatable,all_incorrect,all_broad_pct,all_strict_pct,all_error_pct,nokeep_n,nokeep_unrated,nokeep_correct,nokeep_acceptable,nokeep_debatable,nokeep_incorrect,nokeep_broad_pct,nokeep_strict_pct,nokeep_error_pct,creative_n,creative_unrated,creative_correct,creative_acceptable,creative_debatable,creative_incorrect,creative_broad_pct,creative_strict_pct,creative_error_pct
+RemedIA,scot_09_01,Frailty without overt multimorbidity,9,0,8,0,1,0,88.88888888888889,88.88888888888889,0.0,8,0,8,0,0,0,100.0,100.0,0.0,4,0,4,0,0,0,100.0,100.0,0.0
+RemedIA,scot_09_02,Frailty with multimorbidity,17,0,8,1,2,6,52.94117647058823,47.05882352941177,35.294117647058826,14,0,7,1,1,5,57.142857142857146,50.0,35.714285714285715,5,0,2,1,1,1,60.0,40.0,20.0
+RemedIA,scot_09_03,Care home resident with multimorbidity,14,0,7,1,4,2,57.142857142857146,50.0,14.285714285714286,9,0,6,0,1,2,66.66666666666667,66.66666666666667,22.22222222222222,3,0,2,0,1,0,66.66666666666667,66.66666666666667,0.0
+RemedIA,scot_09_04,Care home resident with multimorbidity including dementia,13,0,10,1,1,1,84.61538461538461,76.92307692307692,7.6923076923076925,10,0,9,1,0,0,100.0,90.0,0.0,4,0,3,1,0,0,100.0,75.0,0.0
+RemedIA,scot_09_05,Younger adult with intellectual disability in a care home,8,0,5,1,1,1,75.0,62.5,12.5,7,0,4,1,1,1,71.42857142857143,57.142857142857146,14.285714285714286,4,0,3,1,0,0,100.0,75.0,0.0
+RemedIA,scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",25,0,13,1,3,8,56.0,52.0,32.0,23,0,13,0,3,7,56.52173913043478,56.52173913043478,30.434782608695652,15,0,11,0,2,2,73.33333333333333,73.33333333333333,13.333333333333334
+RemedIA,scot_09_07,High risk combination – antiplatelet and anticoagulant,13,0,3,2,4,4,38.46153846153846,23.076923076923077,30.76923076923077,9,0,2,1,3,3,33.333333333333336,22.22222222222222,33.333333333333336,4,0,0,1,2,1,25.0,0.0,25.0
+RemedIA,scot_09_08,Chronic pain – opioids,20,0,11,3,3,3,70.0,55.0,15.0,15,0,9,0,3,3,60.0,60.0,20.0,7,0,3,0,2,2,42.857142857142854,42.857142857142854,28.571428571428573
+RemedIA,scot_09_09,Chronic pain – anticonvulsants,4,0,4,0,0,0,100.0,100.0,0.0,3,0,3,0,0,0,100.0,100.0,0.0,3,0,3,0,0,0,100.0,100.0,0.0
+RemedIA,scot_09_10,Chronic pain – Antidepressants,8,0,1,1,3,3,25.0,12.5,37.5,4,0,0,0,3,1,0.0,0.0,25.0,4,0,0,0,3,1,0.0,0.0,25.0
+RemedIA,scot_09_11,Type 2 diabetes mellitus with severe frailty,24,0,11,7,5,1,75.0,45.833333333333336,4.166666666666667,15,0,9,2,4,0,73.33333333333333,60.0,0.0,7,0,2,1,4,0,42.857142857142854,28.571428571428573,0.0
+RemedIA,scot_09_12,Chronic Constipation,17,0,10,1,2,4,64.70588235294117,58.8235294117647,23.529411764705884,10,0,4,0,2,4,40.0,40.0,40.0,7,0,2,0,2,3,28.571428571428573,28.571428571428573,42.857142857142854
+RemedIA,scot_09_13,Adult with Parkinson’s disease,8,0,4,2,2,0,75.0,50.0,0.0,3,0,3,0,0,0,100.0,100.0,0.0,2,0,2,0,0,0,100.0,100.0,0.0
+RemedIA,scot_09_14,Depression and Health Inequalities,3,0,3,0,0,0,100.0,100.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0
+RemedIA,scot_09_15,Anxiety,0,0,0,0,0,0,,,,0,0,0,0,0,0,,,,0,0,0,0,0,0,,,
+RemedIA,scot_09_16,Post traumatic stress disorder with “street benzo” use,1,0,1,0,0,0,100.0,100.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0
+RemedIA,scot_09_17,Bipolar disorder and lithium,4,0,2,0,1,1,50.0,50.0,25.0,3,0,2,0,1,0,66.66666666666667,66.66666666666667,0.0,2,0,1,0,1,0,50.0,50.0,0.0
+RemedIA,scot_09_18,Antipsychotics in dementia,8,0,1,1,2,4,25.0,12.5,50.0,6,0,1,1,2,2,33.333333333333336,16.666666666666668,33.333333333333336,4,0,0,1,1,2,25.0,0.0,50.0
+RemedIA,scot_09_19,Antipsychotic use following recent hospital discharge,6,0,3,2,0,1,83.33333333333333,50.0,16.666666666666668,4,0,3,1,0,0,100.0,75.0,0.0,1,0,0,1,0,0,100.0,0.0,0.0
+RemedIA,scot_09_20,Antibiotics - penicillin allergy de-labelling,11,0,7,0,3,1,63.63636363636363,63.63636363636363,9.090909090909092,9,0,6,0,2,1,66.66666666666667,66.66666666666667,11.11111111111111,3,0,1,0,2,0,33.333333333333336,33.333333333333336,0.0
+RemedIA,scot_09_21,Antibiotics in end-of-life care,15,0,6,3,2,4,60.0,40.0,26.666666666666668,13,0,6,3,2,2,69.23076923076923,46.15384615384615,15.384615384615385,8,0,1,3,2,2,50.0,12.5,25.0
+RemedIA,scot_09_22,Medication Sick Day Guidance (in nursing home resident),15,0,9,4,1,1,86.66666666666667,60.0,6.666666666666667,9,0,6,1,1,1,77.77777777777777,66.66666666666667,11.11111111111111,3,0,0,1,1,1,33.333333333333336,0.0,33.333333333333336
+RemedIA,scot_09_23,Osteoporosis and risk of falls,15,0,9,3,2,1,80.0,60.0,6.666666666666667,5,0,4,1,0,0,100.0,80.0,0.0,3,0,2,1,0,0,100.0,66.66666666666667,0.0
+RemedIA,scot_09_24,Palliative Care (Cardiovascular),23,0,9,3,6,5,52.17391304347826,39.130434782608695,21.73913043478261,13,0,6,1,5,1,53.84615384615385,46.15384615384615,7.6923076923076925,4,0,1,1,2,0,50.0,25.0,0.0
+RemedIA,scot_09_25,Palliative Care – End of Life Care,16,0,7,4,1,4,68.75,43.75,25.0,11,0,6,4,0,1,90.9090909090909,54.54545454545455,9.090909090909092,9,0,5,4,0,0,100.0,55.55555555555556,0.0
+RemedIA,scot_09_26,Drug dependency and requests for medication out of hours,8,0,4,4,0,0,100.0,50.0,0.0,8,0,4,4,0,0,100.0,50.0,0.0,4,0,1,3,0,0,100.0,25.0,0.0
+Baseline,scot_09_01,Frailty without overt multimorbidity,11,0,6,1,2,2,63.63636363636363,54.54545454545455,18.181818181818183,9,0,6,1,1,1,77.77777777777777,66.66666666666667,11.11111111111111,3,0,2,1,0,0,100.0,66.66666666666667,0.0
+Baseline,scot_09_02,Frailty with multimorbidity,17,0,14,1,0,2,88.23529411764706,82.3529411764706,11.764705882352942,12,0,12,0,0,0,100.0,100.0,0.0,0,0,0,0,0,0,,,
+Baseline,scot_09_03,Care home resident with multimorbidity,13,0,7,3,3,0,76.92307692307692,53.84615384615385,0.0,9,0,6,2,1,0,88.88888888888889,66.66666666666667,0.0,1,0,0,1,0,0,100.0,0.0,0.0
+Baseline,scot_09_04,Care home resident with multimorbidity including dementia,12,0,6,2,1,3,66.66666666666667,50.0,25.0,8,0,6,1,1,0,87.5,75.0,0.0,2,0,1,1,0,0,100.0,50.0,0.0
+Baseline,scot_09_05,Younger adult with intellectual disability in a care home,8,0,4,3,1,0,87.5,50.0,0.0,6,0,3,3,0,0,100.0,50.0,0.0,0,0,0,0,0,0,,,
+Baseline,scot_09_06,"Multimorbidity without frailty (acute pain, depression, COPD and high-risk combinations)",24,0,18,1,3,2,79.16666666666667,75.0,8.333333333333334,18,0,17,0,1,0,94.44444444444444,94.44444444444444,0.0,6,0,6,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_07,High risk combination – antiplatelet and anticoagulant,10,0,6,3,1,0,90.0,60.0,0.0,7,0,5,2,0,0,100.0,71.42857142857143,0.0,0,0,0,0,0,0,,,
+Baseline,scot_09_08,Chronic pain – opioids,16,0,11,4,1,0,93.75,68.75,0.0,8,0,8,0,0,0,100.0,100.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_09,Chronic pain – anticonvulsants,4,0,2,2,0,0,100.0,50.0,0.0,2,0,1,1,0,0,100.0,50.0,0.0,0,0,0,0,0,0,,,
+Baseline,scot_09_10,Chronic pain – Antidepressants,8,0,4,3,0,1,87.5,50.0,12.5,3,0,2,1,0,0,100.0,66.66666666666667,0.0,1,0,0,1,0,0,100.0,0.0,0.0
+Baseline,scot_09_11,Type 2 diabetes mellitus with severe frailty,26,0,15,7,3,1,84.61538461538461,57.69230769230769,3.8461538461538463,14,0,9,4,1,0,92.85714285714286,64.28571428571429,0.0,2,0,0,1,1,0,50.0,0.0,0.0
+Baseline,scot_09_12,Chronic Constipation,15,0,14,1,0,0,100.0,93.33333333333333,0.0,9,0,9,0,0,0,100.0,100.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_13,Adult with Parkinson’s disease,8,0,5,1,2,0,75.0,62.5,0.0,4,0,4,0,0,0,100.0,100.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_14,Depression and Health Inequalities,4,0,2,1,1,0,75.0,50.0,0.0,2,0,0,1,1,0,50.0,0.0,0.0,1,0,0,1,0,0,100.0,0.0,0.0
+Baseline,scot_09_15,Anxiety,1,0,1,0,0,0,100.0,100.0,0.0,0,0,0,0,0,0,,,,0,0,0,0,0,0,,,
+Baseline,scot_09_16,Post traumatic stress disorder with “street benzo” use,5,0,5,0,0,0,100.0,100.0,0.0,5,0,5,0,0,0,100.0,100.0,0.0,3,0,3,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_17,Bipolar disorder and lithium,5,0,3,1,0,1,80.0,60.0,20.0,2,0,2,0,0,0,100.0,100.0,0.0,0,0,0,0,0,0,,,
+Baseline,scot_09_18,Antipsychotics in dementia,10,0,6,1,1,2,70.0,60.0,20.0,7,0,6,1,0,0,100.0,85.71428571428571,0.0,3,0,2,1,0,0,100.0,66.66666666666667,0.0
+Baseline,scot_09_19,Antipsychotic use following recent hospital discharge,8,0,8,0,0,0,100.0,100.0,0.0,7,0,7,0,0,0,100.0,100.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_20,Antibiotics - penicillin allergy de-labelling,10,0,4,4,1,1,80.0,40.0,10.0,4,0,3,1,0,0,100.0,75.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_21,Antibiotics in end-of-life care,14,0,11,3,0,0,100.0,78.57142857142857,0.0,14,0,11,3,0,0,100.0,78.57142857142857,0.0,5,0,2,3,0,0,100.0,40.0,0.0
+Baseline,scot_09_22,Medication Sick Day Guidance (in nursing home resident),14,0,6,5,3,0,78.57142857142857,42.857142857142854,0.0,4,0,3,0,1,0,75.0,75.0,0.0,1,0,0,0,1,0,0.0,0.0,0.0
+Baseline,scot_09_23,Osteoporosis and risk of falls,14,0,7,5,1,1,85.71428571428571,50.0,7.142857142857143,5,0,5,0,0,0,100.0,100.0,0.0,0,0,0,0,0,0,,,
+Baseline,scot_09_24,Palliative Care (Cardiovascular),24,0,18,3,3,0,87.5,75.0,0.0,14,0,13,1,0,0,100.0,92.85714285714286,0.0,3,0,3,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_25,Palliative Care – End of Life Care,16,0,15,1,0,0,100.0,93.75,0.0,15,0,14,1,0,0,100.0,93.33333333333333,0.0,3,0,3,0,0,0,100.0,100.0,0.0
+Baseline,scot_09_26,Drug dependency and requests for medication out of hours,9,0,5,1,3,0,66.66666666666667,55.55555555555556,0.0,5,0,4,0,1,0,80.0,80.0,0.0,1,0,1,0,0,0,100.0,100.0,0.0

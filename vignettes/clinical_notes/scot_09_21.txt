@@ -1,0 +1,59 @@
+Background (age, sex, occupation, baseline function)
+- 79-year-old male
+- Nursing home resident currently admitted to hospital
+
+History of presentation/reason for review
+- One week ago: worsening cough, shortness of breath and acute confusion
+- Deterioration over last three days and now on day four of five-day course of doxycycline for presumed pneumonia
+- Last 24 hours: difficulty swallowing, drowsy and too unwell to discuss treatment approach. Discussion with son and admitted to hospital for treatment of suspected pneumonia and dehydration
+- Oral candidiasis
+
+Current medical history and relevant comorbidities
+- Non-small cell lung cancer with bone, liver and adrenal metastases diagnosed three months ago. For symptomatic management as not fit for chemotherapy
+- Parkinson’s disease (PD) – 10 years ago
+- Chronic kidney disease – 14 years ago
+- Ischaemic heart disease (IHD) and hypertension – 18 years ago
+
+Current medication and drug allergies (include over the counter (OTC) preparations and herbal remedies)
+- Allergies or adverse drugs reactions (ADRs): nil
+- Currently prescribed:
+- Amlodipine 5mg tablets: one tablet daily
+- Aspirin 75mg dispersible tablets: one tablet daily
+- Co-beneldopa 100/25mg capsules: one capsule every six hours
+- Macrogol 3350 sachets: one sachet twice daily
+- Paracetamol 500mg caplets: two caplets every six hours
+- Quinine sulfate 200mg tablets: one tablet at night
+- Senna 7.5mg tablets: two tablets at night
+- Simvastatin 40mg tablets: one tablet at night
+- Thiamine 100mg tablets: one tablet three times daily
+- Over the counter medicines: nil
+
+Lifestyle and current function
+- Clinical frailty score (Rockwood) seven (severely frail)
+- Previous alcohol excess, has been abstinent for five years
+
+“What matters to me” (ideas, concerns, and expectations of treatment)
+- Community DNACPR order
+- Advance Care Plan in place, listing care home as preferred place of death with ‘consider hospital admission for reversible conditions’
+
+Observations, examinations and results
+- Note: local laboratory reference ranges may vary
+- New confusion – abbreviated mental test (AMT) 0/4
+- Weight 52kg, Height 167cm, BMI 18.6kg/m2
+- BP 100/55mmHg, pulse 110bpm
+- Respiratory rate 26 per minute; coarse bilateral crepitations on auscultation
+- Temperature 35.5°C
+- Urea and Electrolytes:
+- Urea 22.0mmol/L (2.5-7.8mmol/L)
+- eGFR 33 ml/min/1.73m2
+- Creatinine 180micromol/L, (60-120micromol/L), calculated creatinine clearance 21ml/min
+- Albumin 15g/dL (3-50g/dL)
+- CRP 75mg/L (0-10mg/L)
+- Adjusted calcium 3.21mmol/L (2.20 -2.60mmol/L)
+
+Most recent relevant consultations
+- Following admission to hospital:
+- Intravenous (IV) antibiotics and fluids commenced for treatment of community acquired pneumonia and IV pamidronate for hypercalcaemia of malignancy
+- Visibly worsening despite 24 hours of IV treatment
+- Agitated and pulling out vascular devices
+- Incontinent of loose stools (sample sent for Clostridioides difficile (C. diff))

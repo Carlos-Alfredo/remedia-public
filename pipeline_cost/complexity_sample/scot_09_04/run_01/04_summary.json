@@ -1,0 +1,110 @@
+{
+  "case_id": "scot_09_04",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 79,
+      "chart_preparation": 0,
+      "chart_link": 143,
+      "prm_analysis": 182
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 75.12,
+    "chart_preparation": 0.001,
+    "chart_link": 526.867,
+    "prm_analysis": 1210.322,
+    "prm_1": 328.833,
+    "prm_2": 151.213,
+    "prm_3": 92.431,
+    "prm_4": 79.513,
+    "prm_5": 518.406,
+    "prm_6": 39.914,
+    "prm_7": 0.0
+  },
+  "wall_seconds_total": 1812.327,
+  "links": 99,
+  "recommendation_count": 10,
+  "actions": {
+    "discontinue": 4,
+    "add": 2,
+    "replace": 4
+  },
+  "recommendations": [
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "Peripheral Oedema"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Bilateral Cellulitis"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Nausea"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Mixed Alzheimer’S Disease / Vascular Dementia"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Bilateral Cellulitis"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 404,
+    "input_tokens": 627856,
+    "output_tokens": 43676,
+    "thoughts_tokens": 41143,
+    "total_tokens_reported": 712675,
+    "rows_missing_usage": 1
+  },
+  "estimated_usd": 0.7471,
+  "completed_at_iso": "2026-10-26T11:37:53.208147+00:00",
+  "run": 1
+}

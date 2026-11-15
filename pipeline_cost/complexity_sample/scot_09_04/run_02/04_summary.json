@@ -1,0 +1,104 @@
+{
+  "case_id": "scot_09_04",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 80,
+      "chart_preparation": 0,
+      "chart_link": 134,
+      "prm_analysis": 137
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 78.571,
+    "chart_preparation": 0.001,
+    "chart_link": 540.507,
+    "prm_analysis": 1142.535,
+    "prm_1": 428.424,
+    "prm_2": 227.69,
+    "prm_3": 144.007,
+    "prm_4": 216.256,
+    "prm_5": 87.769,
+    "prm_6": 38.377,
+    "prm_7": 0.0
+  },
+  "wall_seconds_total": 1761.63,
+  "links": 91,
+  "recommendation_count": 9,
+  "actions": {
+    "discontinue": 5,
+    "add": 2,
+    "replace": 2
+  },
+  "recommendations": [
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "Peripheral Oedema"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Bilateral Cellulitis"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Itchy Legs; Itchy Rash"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Nausea"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 351,
+    "input_tokens": 597113,
+    "output_tokens": 39065,
+    "thoughts_tokens": 36560,
+    "total_tokens_reported": 672738,
+    "rows_missing_usage": 1
+  },
+  "estimated_usd": 0.6972,
+  "completed_at_iso": "2026-10-26T12:07:14.880759+00:00",
+  "run": 2
+}

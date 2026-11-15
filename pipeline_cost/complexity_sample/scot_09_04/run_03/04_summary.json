@@ -1,0 +1,117 @@
+{
+  "case_id": "scot_09_04",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 76,
+      "chart_preparation": 0,
+      "chart_link": 147,
+      "prm_analysis": 174
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 95.611,
+    "chart_preparation": 0.001,
+    "chart_link": 647.849,
+    "prm_analysis": 1180.063,
+    "prm_1": 329.726,
+    "prm_2": 200.767,
+    "prm_3": 80.614,
+    "prm_4": 31.337,
+    "prm_5": 503.983,
+    "prm_6": 33.625,
+    "prm_7": 0.0
+  },
+  "wall_seconds_total": 1923.544,
+  "links": 93,
+  "recommendation_count": 11,
+  "actions": {
+    "discontinue": 5,
+    "add": 2,
+    "replace": 3,
+    "reduce_dosage": 1
+  },
+  "recommendations": [
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "Peripheral Oedema"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "Nausea"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Bilateral Cellulitis"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Mixed Alzheimer’S Disease / Vascular Dementia"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Bilateral Cellulitis"
+    },
+    {
+      "prm": 6,
+      "action": "reduce_dosage",
+      "medication": null,
+      "health_problem": "Peripheral Oedema"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 397,
+    "input_tokens": 643192,
+    "output_tokens": 41605,
+    "thoughts_tokens": 46145,
+    "total_tokens_reported": 730942,
+    "rows_missing_usage": 0
+  },
+  "estimated_usd": 0.7662,
+  "completed_at_iso": "2026-10-26T12:39:18.474048+00:00",
+  "run": 3
+}

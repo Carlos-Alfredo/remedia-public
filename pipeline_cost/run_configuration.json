@@ -1,0 +1,38 @@
+{
+  "purpose": "API and time logs for the live chart pipeline. This folder does not replace the specialist workbook.",
+  "medical_results_left_untouched": "Pharmacotherapy_agentic_v4/evaluation/scottish_polypharmacy_20261014/",
+  "evaluated_run": {
+    "workbook_commit": "05bd0dfb7cc54298df1e086194e5925c0383d445",
+    "workbook_committed_at_utc": "2026-10-14T16:49:44Z",
+    "code_parent": "57014fe1",
+    "code_parent_subject": "Keep a history-only Scottish chart when linking has no pairs.",
+    "run_name_on_the_sheets": "scottish_polypharmacy_full_20261014"
+  },
+  "faithfulness": "The model map, call-site tiers, and live stages match that parent. Later commits on this path moved imports and deleted functions the pipeline does not call. The cost logger on this run records thoughts_tokens and a per-call USD split, which the October workbook commit did not retain.",
+  "stages": [
+    "list extraction",
+    "chart preparation (no model call)",
+    "chart links",
+    "PRM passes 1-7"
+  ],
+  "preset": "standard",
+  "tiers": {
+    "list_extraction": "medium: gemini-3.8-flash, thinking level low",
+    "link.list": "medium: gemini-3.8-flash, thinking level low",
+    "link.handshake": "low: gemini-3.5-flash-lite, thinking level low",
+    "prm_detection_and_recommendation": "medium: gemini-3.8-flash, thinking level low",
+    "prm_detection_and_recommendation_critic": "medium: gemini-3.8-flash, thinking level low"
+  },
+  "environment": {
+    "GOOGLE_CLOUD_LOCATION": "global",
+    "REMEDIA_DISABLE_INTEGRITY_MEDICATION_ENRICHMENT": "1",
+    "ENRICHMENT_CACHE_ENABLED": "0",
+    "LLM_PROMPT_RESPONSE_MAX_CHARS": "0"
+  },
+  "rates_usd_per_1m": {
+    "gemini-3.8-flash_input": 0.75,
+    "gemini-3.8-flash_output_and_thoughts": 3.75,
+    "gemini-3.5-flash-lite_input": 0.3,
+    "gemini-3.5-flash-lite_output_and_thoughts": 2.5
+  }
+}

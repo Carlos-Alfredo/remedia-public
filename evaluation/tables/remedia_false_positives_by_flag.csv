@@ -1,0 +1,15 @@
+action_class,flag,n_false_positives
+reduce_dosage,dose_too_high,9
+add,needs_adjunct_escalation_add,9
+replace,interaction_undesirable_reaction,8
+replace,safer_drug_required,8
+discontinue,duplicate_same_ingredient_orders,7
+increase_dosage,interaction_reduces_active_drug,6
+add,needs_distinct_role_adjunct_add,5
+replace,contraindicated_risk_factors,3
+replace,not_most_effective_for_indication,3
+increase_dosage,dose_too_low,3
+replace,non_dose_related_undesirable_reaction,2
+discontinue,no_valid_indication,2
+replace,condition_refractory,2
+replace,not_effective_for_problem,1

@@ -1,0 +1,24 @@
+{
+  "cases": [
+    "scot_09_17",
+    "scot_09_04",
+    "scot_09_08"
+  ],
+  "runs": 5,
+  "preset": "standard",
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "started_at_iso": "2026-10-26T09:58:50.559751+00:00",
+  "rates_usd_per_1m": {
+    "flash_lite_input": 0.25,
+    "flash_lite_output": 1.5,
+    "flash_35_lite_input": 0.3,
+    "flash_35_lite_output": 2.5,
+    "flash_input": 0.5,
+    "flash_output": 3.0,
+    "flash_35_input": 1.5,
+    "flash_35_output": 9.0,
+    "flash_38_input": 0.75,
+    "flash_38_output": 3.75
+  },
+  "thoughts_priced_as": "output"
+}

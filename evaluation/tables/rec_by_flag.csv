@@ -1,0 +1,22 @@
+flag,n,unrated,correct,acceptable,debatable,incorrect,broad_pct,strict_pct,error_pct
+"(keep, sem flag)",92,0,33,23,15,21,60.869565217391305,35.869565217391305,22.82608695652174
+no_valid_indication,49,0,47,0,1,1,95.91836734693878,95.91836734693878,2.0408163265306123
+dose_too_high,23,0,13,1,3,6,60.869565217391305,56.52173913043478,26.08695652173913
+safer_drug_required,21,0,10,3,5,3,61.904761904761905,47.61904761904762,14.285714285714286
+interaction_undesirable_reaction,20,0,8,4,5,3,60.0,40.0,15.0
+needs_adjunct_escalation_add,20,0,7,4,6,3,55.0,35.0,15.0
+needs_distinct_role_adjunct_add,15,0,8,2,4,1,66.66666666666667,53.333333333333336,6.666666666666667
+duplicate_same_ingredient_orders,8,0,1,0,1,6,12.5,12.5,75.0
+inappropriate_dosage_form,8,0,4,4,0,0,100.0,50.0,0.0
+condition_refractory,7,0,3,2,2,0,71.42857142857143,42.857142857142854,0.0
+dose_too_low,7,0,3,1,1,2,57.142857142857146,42.857142857142854,28.571428571428573
+interaction_reduces_active_drug,6,0,0,0,2,4,0.0,0.0,66.66666666666667
+non_dose_related_undesirable_reaction,6,0,4,0,0,2,66.66666666666667,66.66666666666667,33.333333333333336
+not_most_effective_for_indication,6,0,2,1,1,2,50.0,33.333333333333336,33.333333333333336
+not_effective_for_problem,4,0,3,0,0,1,75.0,75.0,25.0
+redundant_distinct_agent,4,0,4,0,0,0,100.0,100.0,0.0
+contraindicated_risk_factors,3,0,0,0,3,0,0.0,0.0,0.0
+temporary_safety_discontinue,3,0,3,0,0,0,100.0,100.0,0.0
+condition_requires_initiation,1,0,1,0,0,0,100.0,100.0,0.0
+preventive_therapy_required,1,0,1,0,0,0,100.0,100.0,0.0
+treating_avoidable_adr_from_other_med,1,0,1,0,0,0,100.0,100.0,0.0

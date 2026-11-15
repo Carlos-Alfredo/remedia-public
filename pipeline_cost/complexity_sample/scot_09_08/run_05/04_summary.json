@@ -1,0 +1,136 @@
+{
+  "case_id": "scot_09_08",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 93,
+      "chart_preparation": 0,
+      "chart_link": 262,
+      "prm_analysis": 367
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 90.343,
+    "chart_preparation": 0.001,
+    "chart_link": 1040.537,
+    "prm_analysis": 2756.669,
+    "prm_1": 105.337,
+    "prm_2": 585.508,
+    "prm_3": 234.585,
+    "prm_4": 65.002,
+    "prm_5": 1331.77,
+    "prm_6": 434.452,
+    "prm_7": 0.001
+  },
+  "wall_seconds_total": 3887.585,
+  "links": 130,
+  "recommendation_count": 14,
+  "actions": {
+    "discontinue": 3,
+    "add": 4,
+    "replace": 5,
+    "increase_dosage": 1,
+    "reduce_dosage": 1
+  },
+  "recommendations": [
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Essential Hypertension"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Chronic Lower Back Pain"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Cerebrovascular Disease"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Constipation Prophylaxis"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Chronic Lower Back Pain"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Chronic Lower Back Pain"
+    },
+    {
+      "prm": 4,
+      "action": "increase_dosage",
+      "medication": null,
+      "health_problem": "Cerebrovascular Disease; Secondary Cardiovascular Prophylaxis"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Chronic Lower Back Pain; Anxiety"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Urinary Tract Infection Prophylaxis"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Hiatus Hernia; Barrett’S Oesophagus"
+    },
+    {
+      "prm": 6,
+      "action": "reduce_dosage",
+      "medication": null,
+      "health_problem": "Chronic Lower Back Pain"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 722,
+    "input_tokens": 1013350,
+    "output_tokens": 75232,
+    "thoughts_tokens": 73605,
+    "total_tokens_reported": 1162187,
+    "rows_missing_usage": 1
+  },
+  "estimated_usd": 1.2337,
+  "completed_at_iso": "2026-10-26T18:20:10.403976+00:00",
+  "run": 5
+}

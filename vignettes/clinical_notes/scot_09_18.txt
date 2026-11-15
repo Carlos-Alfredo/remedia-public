@@ -1,0 +1,63 @@
+Background (age, sex, occupation, baseline function)
+- 75-year-old retired female
+- Reduced mobility due to left sided weakness (previous stroke)
+- Lives with husband. Dependent on husband and carers for activities of daily living
+
+History of presentation/reason for review
+- Admitted to hospital with fall, found by husband on floor beside the bed in the morning
+- Presentation of worsening cognition and function over the past three months
+- Over the past week, sudden increase in confusion, agitation and aggression. Refusing medicines today. Eating and drinking normally
+
+Current medical history and relevant comorbidities
+- Cerebrovascular disease: right partial anterior circulation stroke (PACS) leading to mild left arm and leg weakness three years ago
+- Mixed dementia (Alzheimer’s/vascular)
+
+Current medication and drug allergies (include over the counter (OTC) preparation, traditional medicines and herbal remedies)
+- Allergies or adverse drugs reactions (ADRs): nil
+- Currently prescribed:
+- Aspirin 75mg dispersible tablets: one tablet daily
+- Atorvastatin 80mg tablets: one tablet daily
+- Donepezil 5mg tablets: one tablet daily
+- Perindopril 4mg tablets: one tablet daily
+- Solifenacin 5mg tablets: one tablet daily (started one month ago for urinary frequency)
+- Recent acute medication:
+- Hydroxyzine 25mg tablets: one tablet at night (started two weeks ago for an itchy rash on back)
+- Risperidone 250 microgram tablets: one tablet twice daily (prescribed one day prior to admission but not taken yet)
+- Over the counter medicines: nil
+
+Lifestyle and current function
+- Carers four times a day
+- Mobile with a stick for short distances, lives in ground floor flat
+- Clinical Frailty Score (Rockwood) 7 (severely frail)
+- Ex-smoker (stopped 10 years ago), no alcohol
+
+“What matters to me” (ideas, concerns and expectations of treatment)
+- Lacks capacity for discussion
+- Husband is unable to cope with her increased aggression at home and concerned that she is refusing medication.
+
+Observations, examinations and results
+- Note: local laboratory reference ranges may vary
+- Weight 65kg, Height 160cm, BMI 25.4kg/m2
+- Blood pressure 120/75mmHg, no postural hypotension
+- Pulse: 50 beats/minute
+- Urea and Electrolytes:
+- within normal range
+- eGFR greater than 60ml/min/1.73m2
+- Liver function tests: within range
+- CRP, white cell count, temperature within normal range
+- MSSU: nil of note
+- Full blood count (reference ranges given in brackets):
+- Haemoglobin 85g/L (115-165g/L)
+- MCV 187fL (80-100fL)
+- Serum folate 2.5micrograms/L (4.6-18.7micrograms/L)
+- Serum vitamin B12 96nanograms/L (180-700nanograms/L)
+- Ferritin 95micrograms/L (15-300micrograms/L)
+- QTc: 470ms (normal range equivalent or less than 470ms in female)
+- Bowel chart: no bowel movement for past three days
+- Abbreviated Mental Test (AMT) score 4
+- CT head: normal
+
+Most recent relevant consultations
+- Deterioration of cognition and function over past three months, awaiting old age psychiatry review
+- Urinary frequency: solifenacin started one month ago after trial of non-pharmacological options
+- Rash (itchy) causing distress especially at night: hydroxyzine 25mg at night prescribed

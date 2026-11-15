@@ -1,0 +1,117 @@
+{
+  "case_id": "scot_09_08",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 80,
+      "chart_preparation": 0,
+      "chart_link": 223,
+      "prm_analysis": 246
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 231.766,
+    "chart_preparation": 0.001,
+    "chart_link": 691.026,
+    "prm_analysis": 1151.269,
+    "prm_1": 135.512,
+    "prm_2": 193.842,
+    "prm_3": 278.246,
+    "prm_4": 73.05,
+    "prm_5": 125.44,
+    "prm_6": 345.165,
+    "prm_7": 0.001
+  },
+  "wall_seconds_total": 2074.085,
+  "links": 119,
+  "recommendation_count": 11,
+  "actions": {
+    "discontinue": 4,
+    "add": 2,
+    "replace": 4,
+    "increase_dosage": 1
+  },
+  "recommendations": [
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Essential Hypertension"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Cerebrovascular Disease"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Chronic Lower Back Pain"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Chronic Lower Back Pain"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Chronic Lower Back Pain"
+    },
+    {
+      "prm": 4,
+      "action": "increase_dosage",
+      "medication": null,
+      "health_problem": "Cerebrovascular Disease"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Barrett’S Oesophagus; Hiatus Hernia"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 549,
+    "input_tokens": 787415,
+    "output_tokens": 57986,
+    "thoughts_tokens": 60094,
+    "total_tokens_reported": 905495,
+    "rows_missing_usage": 1
+  },
+  "estimated_usd": 0.9619,
+  "completed_at_iso": "2026-10-26T15:16:41.692973+00:00",
+  "run": 2
+}

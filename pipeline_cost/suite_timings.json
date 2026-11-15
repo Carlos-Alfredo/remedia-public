@@ -1,0 +1,70 @@
+{
+  "started_at_iso": "2026-10-25T13:32:05.485109+00:00",
+  "updated_at_iso": "2026-10-25T14:20:36.173558+00:00",
+  "suite_wall_seconds": 2597.51,
+  "case_count": 2,
+  "succeeded": 2,
+  "skipped": 0,
+  "failed": 0,
+  "stage_totals_seconds": {
+    "document_extraction": 123.799,
+    "chart_preparation": 0.002,
+    "chart_link": 1014.324,
+    "prm_analysis": 1459.268,
+    "prm_1": 307.981,
+    "prm_2": 137.107,
+    "prm_3": 248.741,
+    "prm_4": 86.384,
+    "prm_5": 567.008,
+    "prm_6": 112.011,
+    "prm_7": 0.0
+  },
+  "cases": [
+    {
+      "case_id": "scot_09_01",
+      "success": true,
+      "skipped": false,
+      "error": null,
+      "wall_seconds_total": 469.833,
+      "stages": {
+        "document_extraction": 29.243,
+        "chart_preparation": 0.001,
+        "chart_link": 176.586,
+        "prm_analysis": 263.993,
+        "prm_1": 137.039,
+        "prm_2": 58.905,
+        "prm_3": 33.691,
+        "prm_4": 2.148,
+        "prm_5": 32.202,
+        "prm_6": 0.0,
+        "prm_7": 0.0
+      },
+      "links": 41,
+      "recommendation_count": 9,
+      "estimated_usd": 0.4104
+    },
+    {
+      "case_id": "scot_09_02",
+      "success": true,
+      "skipped": false,
+      "error": null,
+      "wall_seconds_total": 2127.629,
+      "stages": {
+        "document_extraction": 94.556,
+        "chart_preparation": 0.001,
+        "chart_link": 837.738,
+        "prm_analysis": 1195.275,
+        "prm_1": 170.942,
+        "prm_2": 78.202,
+        "prm_3": 215.05,
+        "prm_4": 84.236,
+        "prm_5": 534.806,
+        "prm_6": 112.011,
+        "prm_7": 0.0
+      },
+      "links": 245,
+      "recommendation_count": 14,
+      "estimated_usd": 1.3598
+    }
+  ]
+}

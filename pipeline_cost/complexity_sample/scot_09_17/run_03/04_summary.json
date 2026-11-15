@@ -1,0 +1,74 @@
+{
+  "case_id": "scot_09_17",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 46,
+      "chart_preparation": 0,
+      "chart_link": 64,
+      "prm_analysis": 91
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 105.408,
+    "chart_preparation": 0.001,
+    "chart_link": 221.735,
+    "prm_analysis": 770.324,
+    "prm_1": 247.272,
+    "prm_2": 69.458,
+    "prm_3": 22.74,
+    "prm_4": 13.784,
+    "prm_5": 169.188,
+    "prm_6": 247.874,
+    "prm_7": 0.0
+  },
+  "wall_seconds_total": 1097.478,
+  "links": 28,
+  "recommendation_count": 4,
+  "actions": {
+    "add": 1,
+    "replace": 2,
+    "reduce_dosage": 1
+  },
+  "recommendations": [
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Hypertension"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Primary Hypercholesterolaemia"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Hypertension"
+    },
+    {
+      "prm": 6,
+      "action": "reduce_dosage",
+      "medication": null,
+      "health_problem": "Bipolar Type 1 Disorder"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 201,
+    "input_tokens": 249817,
+    "output_tokens": 16575,
+    "thoughts_tokens": 19270,
+    "total_tokens_reported": 285662,
+    "rows_missing_usage": 0
+  },
+  "estimated_usd": 0.2994,
+  "completed_at_iso": "2026-10-26T10:33:25.125137+00:00",
+  "run": 3
+}

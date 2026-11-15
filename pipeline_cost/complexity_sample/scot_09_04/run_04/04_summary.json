@@ -1,0 +1,123 @@
+{
+  "case_id": "scot_09_04",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 79,
+      "chart_preparation": 0,
+      "chart_link": 140,
+      "prm_analysis": 168
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 105.087,
+    "chart_preparation": 0.001,
+    "chart_link": 506.822,
+    "prm_analysis": 900.684,
+    "prm_1": 123.805,
+    "prm_2": 417.892,
+    "prm_3": 152.649,
+    "prm_4": 15.477,
+    "prm_5": 168.918,
+    "prm_6": 21.932,
+    "prm_7": 0.0
+  },
+  "wall_seconds_total": 1512.612,
+  "links": 90,
+  "recommendation_count": 12,
+  "actions": {
+    "discontinue": 5,
+    "add": 2,
+    "replace": 4,
+    "reduce_dosage": 1
+  },
+  "recommendations": [
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "Peripheral Oedema"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Bilateral Cellulitis"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Legs Itchy; Rash"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Nausea"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Bilateral Cellulitis"
+    },
+    {
+      "prm": 6,
+      "action": "reduce_dosage",
+      "medication": null,
+      "health_problem": "Peripheral Oedema"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 387,
+    "input_tokens": 615572,
+    "output_tokens": 41023,
+    "thoughts_tokens": 38562,
+    "total_tokens_reported": 695157,
+    "rows_missing_usage": 1
+  },
+  "estimated_usd": 0.7213,
+  "completed_at_iso": "2026-10-26T13:04:31.142091+00:00",
+  "run": 4
+}

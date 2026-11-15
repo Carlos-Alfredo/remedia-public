@@ -1,0 +1,2315 @@
+{
+  "success": true,
+  "user_id": "scot_09_17",
+  "orchestrator": "chart_link",
+  "recommendations": [
+    {
+      "causal_explanation": "Quinine sulfate has an unfavorable risk-benefit profile for nocturnal leg cramps and carries significant toxicity risks, including increased neurotoxicity with lithium and myopathy risk with atorvastatin. Non-drug therapy is more appropriate as primary management (non_pharmacological_treatment=true), addressing prior rejection requiring explicit non-drug modalities and monitoring.",
+      "recommendation_resume": "Discontinue quinine_sulfate_200mg due to unfavorable risk-benefit balance and drug interaction risks.",
+      "recommended_action_details": "Discontinue Quinine Sulfate 200mg tablets. Implement non-pharmacological measures including regular calf stretching exercises prior to sleep, optimizing hydration, keeping bedding loose at the feet, and monitoring for cramp recurrence.",
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "non_pharmacological_treatment": true,
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "non_drug_therapy_more_appropriate",
+        "dtp_explanation": {
+          "target": "Quinine sulfate therapy for nocturnal leg cramps",
+          "undesirable_event_or_risk": "Unfavorable risk-benefit balance and serious drug interactions including increased neurotoxicity risk with lithium and statin-induced myopathy risk with atorvastatin",
+          "drug_therapy_involved": "Quinine Sulfate 200mg tablets",
+          "association": "Quinine sulfate is not recommended as routine first-line pharmacotherapy for nocturnal leg cramps due to poor risk-benefit profile and potential toxicity; non-pharmacological measures (e.g., calf stretching exercises, sleep positioning) and conservative management are more appropriate primary modalities."
+        },
+        "cause_codes": [
+          "non_drug_therapy_more_appropriate"
+        ],
+        "primary_cause_code": "non_drug_therapy_more_appropriate",
+        "problem_summary": "Quinine sulfate therapy for nocturnal leg cramps — Unfavorable risk-benefit balance and serious drug interactions including increased neurotoxicity risk with lithium and statin-induced myopathy risk with atorvastatin",
+        "evidence": "Quinine Sulfate 200mg tablets; Quinine sulfate is not recommended as routine first-line pharmacotherapy for nocturnal leg cramps due to poor risk-benefit profile and potential toxicity; non-pharmacological measures (e.g., calf stretching exercises, sleep positioning) and conservative management are more appropriate primary modalities.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "discontinue",
+        "allowed_actions": [
+          "discontinue"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Quinine sulfate therapy for nocturnal leg cramps",
+        "target_mar_lines": [
+          "quinine_sulfate_200mg"
+        ],
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "discontinue",
+      "current_mar_line": "quinine_sulfate_200mg",
+      "mar_id": "quinine_sulfate_200mg",
+      "new_medication": "False",
+      "covered_indications": [
+        "Nocturnal Leg Cramps"
+      ],
+      "indication": "Nocturnal Leg Cramps",
+      "_stakeholder_indication_universe": [
+        "Nocturnal Leg Cramps"
+      ],
+      "current_dosage": "200mg tablets: one tablet at night",
+      "recommended_dosage": "False",
+      "recommended_frequency": "False",
+      "mar_lines_to_combine": [],
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 1,
+      "health_problem": "Nocturnal Leg Cramps",
+      "prm_number": 1
+    },
+    {
+      "causal_explanation": "Average home blood pressure remains uncontrolled at 164/88 mmHg despite maximal-dose ramipril (10 mg daily). Per NICE NG136 Step 2 guidance, add a dihydropyridine calcium channel blocker (amlodipine) as an adjunct to the ACE inhibitor to achieve blood pressure control. Amlodipine does not interact with lithium, avoiding the lithium toxicity risks associated with thiazide-like diuretics. Monitor blood pressure and peripheral edema.",
+      "recommendation_resume": "Added amlodipine 5 mg once daily as adjunct therapy for uncontrolled hypertension.",
+      "new_medication": "Amlodipine",
+      "recommended_dosage": "5 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Hypertension",
+      "covered_indications": [
+        "Hypertension"
+      ],
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "needs_adjunct_escalation_add",
+        "dtp_explanation": {
+          "target": "Hypertension blood pressure control",
+          "undesirable_event_or_risk": "Persistently elevated average home blood pressure (164/88 mmHg) documented as evidence of uncontrolled hypertension despite maximum dose monotherapy",
+          "drug_therapy_involved": "Ramipril 10mg daily",
+          "association": "Ramipril has already been titrated to the maximum recommended dose (10mg daily) two months ago, yet chart evidence indicates uncontrolled hypertension requiring a guideline-directed distinct adjunct agent (such as a calcium channel blocker or thiazide-like diuretic) to achieve blood pressure targets."
+        },
+        "cause_codes": [
+          "needs_adjunct_escalation_add"
+        ],
+        "primary_cause_code": "needs_adjunct_escalation_add",
+        "problem_summary": "Hypertension blood pressure control — Persistently elevated average home blood pressure (164/88 mmHg) documented as evidence of uncontrolled hypertension despite maximum dose monotherapy",
+        "evidence": "Ramipril 10mg daily; Ramipril has already been titrated to the maximum recommended dose (10mg daily) two months ago, yet chart evidence indicates uncontrolled hypertension requiring a guideline-directed distinct adjunct agent (such as a calcium channel blocker or thiazide-like diuretic) to achieve blood pressure targets.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "add",
+        "allowed_actions": [
+          "add"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Hypertension blood pressure control",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "add",
+      "_flow_analyzed_medication_name": "False",
+      "non_pharmacological_treatment": false,
+      "current_mar_line": "False",
+      "_stakeholder_indication_universe": [
+        "Nocturnal Leg Cramps",
+        "Hypertension",
+        "Primary Hypercholesterolaemia",
+        "Bipolar Type 1 Disorder",
+        "Retired",
+        "Does Not Smoke",
+        "Drinks Alcohol"
+      ],
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 2,
+      "health_problem": "Hypertension",
+      "prm_number": 2
+    },
+    {
+      "adverse_reaction": "Nocturnal leg cramps / statin-associated muscle symptoms",
+      "causal_explanation": "Atorvastatin is contributing to nocturnal leg cramps. Switching to pravastatin, a hydrophilic statin with lower myotoxicity risk and minimal CYP3A4 metabolism, maintains cholesterol control while alleviating muscle symptoms.",
+      "recommendation_resume": "Replaced atorvastatin_20mg with pravastatin to alleviate nocturnal leg cramps.",
+      "reason_category": "undesirable_effect",
+      "recommended_action_details": "Replace atorvastatin with pravastatin 20 mg once daily to maintain lipid management with reduced risk of muscle-related adverse effects.",
+      "new_medication": "Pravastatin",
+      "recommended_dosage": "20 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Primary Hypercholesterolaemia",
+      "addressed_symptom": "Nocturnal Leg Cramps",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "non_dose_related_undesirable_reaction",
+        "dtp_explanation": {
+          "target": "Atorvastatin therapy for Primary Hypercholesterolaemia",
+          "undesirable_event_or_risk": "Nocturnal leg cramps / statin-associated muscle symptoms",
+          "drug_therapy_involved": "Atorvastatin 20mg daily",
+          "association": "Atorvastatin is documented to cause or contribute to muscle-related adverse effects, manifesting as nocturnal leg cramps."
+        },
+        "cause_codes": [
+          "non_dose_related_undesirable_reaction"
+        ],
+        "primary_cause_code": "non_dose_related_undesirable_reaction",
+        "problem_summary": "Atorvastatin therapy for Primary Hypercholesterolaemia — Nocturnal leg cramps / statin-associated muscle symptoms",
+        "evidence": "Atorvastatin 20mg daily; Atorvastatin is documented to cause or contribute to muscle-related adverse effects, manifesting as nocturnal leg cramps.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "replace",
+        "allowed_actions": [
+          "replace"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Atorvastatin therapy for Primary Hypercholesterolaemia",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "replace",
+      "current_mar_line": "atorvastatin_20mg",
+      "mar_id": "atorvastatin_20mg",
+      "_stakeholder_indication_universe": [
+        "Primary Hypercholesterolaemia"
+      ],
+      "covered_indications": [
+        "Primary Hypercholesterolaemia"
+      ],
+      "non_pharmacological_treatment": false,
+      "current_dosage": "20 mg tablets: one tablet daily",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 5,
+      "health_problem": "Primary Hypercholesterolaemia",
+      "prm_number": 5
+    },
+    {
+      "adverse_reaction": "Elevated lithium concentration and lithium toxicity manifested by fine tremor and drowsiness due to drug interaction.",
+      "causal_explanation": "Ramipril reduces renal lithium clearance, causing toxicity (level 0.98 mmol/L, tremor, drowsiness). Replacing ramipril with indapamide is unsafe because thiazide-like diuretics significantly decrease lithium clearance and worsen toxicity. ARBs also impair lithium clearance. Doxazosin, an alpha-1 blocker, does not impair renal lithium elimination or affect serum lithium levels, making it a safe replacement to maintain blood pressure control alongside added amlodipine without exacerbating lithium toxicity.",
+      "recommendation_resume": "Replaced ramipril_10mg with Doxazosin 1 mg once daily to eliminate ACE inhibitor-induced lithium toxicity.",
+      "reason_category": "drug_interaction",
+      "recommended_action_details": "Replace Ramipril with Doxazosin 1 mg once daily to remove the ACE inhibitor-mediated reduction in lithium excretion without using diuretics or ARBs which also interact.",
+      "new_medication": "Doxazosin",
+      "recommended_dosage": "1 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Hypertension",
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "interaction_undesirable_reaction",
+        "dtp_explanation": {
+          "target": "Ramipril therapy in a patient receiving concurrent lithium",
+          "undesirable_event_or_risk": "Elevated lithium level (0.98 mmol/L) with symptoms of toxicity including fine tremor and drowsiness",
+          "drug_therapy_involved": "Ramipril and Lithium",
+          "association": "Ramipril decreases renal clearance of lithium, leading to increased serum lithium concentrations and resultant toxicity manifested as fine tremor and drowsiness."
+        },
+        "cause_codes": [
+          "interaction_undesirable_reaction"
+        ],
+        "primary_cause_code": "interaction_undesirable_reaction",
+        "problem_summary": "Ramipril therapy in a patient receiving concurrent lithium — Elevated lithium level (0.98 mmol/L) with symptoms of toxicity including fine tremor and drowsiness",
+        "evidence": "Ramipril and Lithium; Ramipril decreases renal clearance of lithium, leading to increased serum lithium concentrations and resultant toxicity manifested as fine tremor and drowsiness.",
+        "confidence": "high",
+        "dtp_priority": "high",
+        "recommended_action": "replace",
+        "allowed_actions": [
+          "replace"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Ramipril therapy in a patient receiving concurrent lithium",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "replace",
+      "current_mar_line": "ramipril_10mg",
+      "mar_id": "ramipril_10mg",
+      "covered_indications": [
+        "Hypertension"
+      ],
+      "_stakeholder_indication_universe": [
+        "Hypertension"
+      ],
+      "non_pharmacological_treatment": false,
+      "current_dosage": "10 mg capsules: one capsule daily (increased two months prior to review)",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 5,
+      "health_problem": "Hypertension",
+      "prm_number": 5
+    },
+    {
+      "causal_explanation": "Lithium serum level is 0.98 mmol/L, exceeding the standard maintenance target (0.6–0.8 mmol/L, or 0.4–0.6 mmol/L in older adults), and is causing fine tremor and drowsiness. Reducing the dose of Priadel from 800 mg to 600 mg once daily at night will lower drug exposure, alleviate neurotoxicity symptoms, and maintain effective mood stabilization for Bipolar Type 1 Disorder safely.",
+      "recommendation_resume": "Reduced lithium_400mg dose to 600 mg once daily at night due to elevated level and neurotoxicity.",
+      "reason_for_high_dosage": "dose_too_high",
+      "recommended_dosage": "600 mg",
+      "recommended_frequency": "once daily",
+      "addressed_symptom": "Fine Tremor",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "dose_too_high",
+        "dtp_explanation": {
+          "target": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder",
+          "undesirable_event_or_risk": "Elevated serum lithium level (0.98 mmol/L) with active symptoms of neurotoxicity/adverse effects including fine tremor and drowsiness",
+          "drug_therapy_involved": "Lithium (Priadel®) 800 mg at night (400 mg x 2)",
+          "association": "In maintenance therapy for bipolar disorder, the standard target serum lithium range is typically 0.6–0.8 mmol/L (or 0.4–0.6 mmol/L in older adults). A level of 0.98 mmol/L accompanied by drowsiness and fine tremor indicates that the current dose produces excessive drug exposure and toxicity."
+        },
+        "cause_codes": [
+          "dose_too_high"
+        ],
+        "primary_cause_code": "dose_too_high",
+        "problem_summary": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder — Elevated serum lithium level (0.98 mmol/L) with active symptoms of neurotoxicity/adverse effects including fine tremor and drowsiness",
+        "evidence": "Lithium (Priadel®) 800 mg at night (400 mg x 2); In maintenance therapy for bipolar disorder, the standard target serum lithium range is typically 0.6–0.8 mmol/L (or 0.4–0.6 mmol/L in older adults). A level of 0.98 mmol/L accompanied by drowsiness and fine tremor indicates that the current dose produces excessive drug exposure and toxicity.",
+        "confidence": "high",
+        "dtp_priority": "high",
+        "recommended_action": "reduce_dosage",
+        "allowed_actions": [
+          "reduce_dosage"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "reduce_dosage",
+      "current_mar_line": "lithium_400mg",
+      "mar_id": "lithium_400mg",
+      "new_medication": "lithium_400mg",
+      "_stakeholder_indication_universe": [
+        "Bipolar Type 1 Disorder"
+      ],
+      "covered_indications": [
+        "Bipolar Type 1 Disorder"
+      ],
+      "indication": "Bipolar Type 1 Disorder",
+      "non_pharmacological_treatment": false,
+      "current_dosage": "(Priadel®) 400 mg tablets: two tablets at night",
+      "resulting_mar_line": "lithium_600mg_qday",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 6,
+      "health_problem": "Bipolar Type 1 Disorder",
+      "prm_number": 6
+    }
+  ],
+  "valid_recommendations": [
+    {
+      "causal_explanation": "Quinine sulfate has an unfavorable risk-benefit profile for nocturnal leg cramps and carries significant toxicity risks, including increased neurotoxicity with lithium and myopathy risk with atorvastatin. Non-drug therapy is more appropriate as primary management (non_pharmacological_treatment=true), addressing prior rejection requiring explicit non-drug modalities and monitoring.",
+      "recommendation_resume": "Discontinue quinine_sulfate_200mg due to unfavorable risk-benefit balance and drug interaction risks.",
+      "recommended_action_details": "Discontinue Quinine Sulfate 200mg tablets. Implement non-pharmacological measures including regular calf stretching exercises prior to sleep, optimizing hydration, keeping bedding loose at the feet, and monitoring for cramp recurrence.",
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "non_pharmacological_treatment": true,
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "non_drug_therapy_more_appropriate",
+        "dtp_explanation": {
+          "target": "Quinine sulfate therapy for nocturnal leg cramps",
+          "undesirable_event_or_risk": "Unfavorable risk-benefit balance and serious drug interactions including increased neurotoxicity risk with lithium and statin-induced myopathy risk with atorvastatin",
+          "drug_therapy_involved": "Quinine Sulfate 200mg tablets",
+          "association": "Quinine sulfate is not recommended as routine first-line pharmacotherapy for nocturnal leg cramps due to poor risk-benefit profile and potential toxicity; non-pharmacological measures (e.g., calf stretching exercises, sleep positioning) and conservative management are more appropriate primary modalities."
+        },
+        "cause_codes": [
+          "non_drug_therapy_more_appropriate"
+        ],
+        "primary_cause_code": "non_drug_therapy_more_appropriate",
+        "problem_summary": "Quinine sulfate therapy for nocturnal leg cramps — Unfavorable risk-benefit balance and serious drug interactions including increased neurotoxicity risk with lithium and statin-induced myopathy risk with atorvastatin",
+        "evidence": "Quinine Sulfate 200mg tablets; Quinine sulfate is not recommended as routine first-line pharmacotherapy for nocturnal leg cramps due to poor risk-benefit profile and potential toxicity; non-pharmacological measures (e.g., calf stretching exercises, sleep positioning) and conservative management are more appropriate primary modalities.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "discontinue",
+        "allowed_actions": [
+          "discontinue"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Quinine sulfate therapy for nocturnal leg cramps",
+        "target_mar_lines": [
+          "quinine_sulfate_200mg"
+        ],
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "discontinue",
+      "current_mar_line": "quinine_sulfate_200mg",
+      "mar_id": "quinine_sulfate_200mg",
+      "new_medication": "False",
+      "covered_indications": [
+        "Nocturnal Leg Cramps"
+      ],
+      "indication": "Nocturnal Leg Cramps",
+      "_stakeholder_indication_universe": [
+        "Nocturnal Leg Cramps"
+      ],
+      "current_dosage": "200mg tablets: one tablet at night",
+      "recommended_dosage": "False",
+      "recommended_frequency": "False",
+      "mar_lines_to_combine": [],
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 1,
+      "health_problem": "Nocturnal Leg Cramps",
+      "prm_number": 1
+    },
+    {
+      "causal_explanation": "Average home blood pressure remains uncontrolled at 164/88 mmHg despite maximal-dose ramipril (10 mg daily). Per NICE NG136 Step 2 guidance, add a dihydropyridine calcium channel blocker (amlodipine) as an adjunct to the ACE inhibitor to achieve blood pressure control. Amlodipine does not interact with lithium, avoiding the lithium toxicity risks associated with thiazide-like diuretics. Monitor blood pressure and peripheral edema.",
+      "recommendation_resume": "Added amlodipine 5 mg once daily as adjunct therapy for uncontrolled hypertension.",
+      "new_medication": "Amlodipine",
+      "recommended_dosage": "5 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Hypertension",
+      "covered_indications": [
+        "Hypertension"
+      ],
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "needs_adjunct_escalation_add",
+        "dtp_explanation": {
+          "target": "Hypertension blood pressure control",
+          "undesirable_event_or_risk": "Persistently elevated average home blood pressure (164/88 mmHg) documented as evidence of uncontrolled hypertension despite maximum dose monotherapy",
+          "drug_therapy_involved": "Ramipril 10mg daily",
+          "association": "Ramipril has already been titrated to the maximum recommended dose (10mg daily) two months ago, yet chart evidence indicates uncontrolled hypertension requiring a guideline-directed distinct adjunct agent (such as a calcium channel blocker or thiazide-like diuretic) to achieve blood pressure targets."
+        },
+        "cause_codes": [
+          "needs_adjunct_escalation_add"
+        ],
+        "primary_cause_code": "needs_adjunct_escalation_add",
+        "problem_summary": "Hypertension blood pressure control — Persistently elevated average home blood pressure (164/88 mmHg) documented as evidence of uncontrolled hypertension despite maximum dose monotherapy",
+        "evidence": "Ramipril 10mg daily; Ramipril has already been titrated to the maximum recommended dose (10mg daily) two months ago, yet chart evidence indicates uncontrolled hypertension requiring a guideline-directed distinct adjunct agent (such as a calcium channel blocker or thiazide-like diuretic) to achieve blood pressure targets.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "add",
+        "allowed_actions": [
+          "add"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Hypertension blood pressure control",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "add",
+      "_flow_analyzed_medication_name": "False",
+      "non_pharmacological_treatment": false,
+      "current_mar_line": "False",
+      "_stakeholder_indication_universe": [
+        "Nocturnal Leg Cramps",
+        "Hypertension",
+        "Primary Hypercholesterolaemia",
+        "Bipolar Type 1 Disorder",
+        "Retired",
+        "Does Not Smoke",
+        "Drinks Alcohol"
+      ],
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 2,
+      "health_problem": "Hypertension",
+      "prm_number": 2
+    },
+    {
+      "adverse_reaction": "Nocturnal leg cramps / statin-associated muscle symptoms",
+      "causal_explanation": "Atorvastatin is contributing to nocturnal leg cramps. Switching to pravastatin, a hydrophilic statin with lower myotoxicity risk and minimal CYP3A4 metabolism, maintains cholesterol control while alleviating muscle symptoms.",
+      "recommendation_resume": "Replaced atorvastatin_20mg with pravastatin to alleviate nocturnal leg cramps.",
+      "reason_category": "undesirable_effect",
+      "recommended_action_details": "Replace atorvastatin with pravastatin 20 mg once daily to maintain lipid management with reduced risk of muscle-related adverse effects.",
+      "new_medication": "Pravastatin",
+      "recommended_dosage": "20 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Primary Hypercholesterolaemia",
+      "addressed_symptom": "Nocturnal Leg Cramps",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "non_dose_related_undesirable_reaction",
+        "dtp_explanation": {
+          "target": "Atorvastatin therapy for Primary Hypercholesterolaemia",
+          "undesirable_event_or_risk": "Nocturnal leg cramps / statin-associated muscle symptoms",
+          "drug_therapy_involved": "Atorvastatin 20mg daily",
+          "association": "Atorvastatin is documented to cause or contribute to muscle-related adverse effects, manifesting as nocturnal leg cramps."
+        },
+        "cause_codes": [
+          "non_dose_related_undesirable_reaction"
+        ],
+        "primary_cause_code": "non_dose_related_undesirable_reaction",
+        "problem_summary": "Atorvastatin therapy for Primary Hypercholesterolaemia — Nocturnal leg cramps / statin-associated muscle symptoms",
+        "evidence": "Atorvastatin 20mg daily; Atorvastatin is documented to cause or contribute to muscle-related adverse effects, manifesting as nocturnal leg cramps.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "replace",
+        "allowed_actions": [
+          "replace"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Atorvastatin therapy for Primary Hypercholesterolaemia",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "replace",
+      "current_mar_line": "atorvastatin_20mg",
+      "mar_id": "atorvastatin_20mg",
+      "_stakeholder_indication_universe": [
+        "Primary Hypercholesterolaemia"
+      ],
+      "covered_indications": [
+        "Primary Hypercholesterolaemia"
+      ],
+      "non_pharmacological_treatment": false,
+      "current_dosage": "20 mg tablets: one tablet daily",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 5,
+      "health_problem": "Primary Hypercholesterolaemia",
+      "prm_number": 5
+    },
+    {
+      "adverse_reaction": "Elevated lithium concentration and lithium toxicity manifested by fine tremor and drowsiness due to drug interaction.",
+      "causal_explanation": "Ramipril reduces renal lithium clearance, causing toxicity (level 0.98 mmol/L, tremor, drowsiness). Replacing ramipril with indapamide is unsafe because thiazide-like diuretics significantly decrease lithium clearance and worsen toxicity. ARBs also impair lithium clearance. Doxazosin, an alpha-1 blocker, does not impair renal lithium elimination or affect serum lithium levels, making it a safe replacement to maintain blood pressure control alongside added amlodipine without exacerbating lithium toxicity.",
+      "recommendation_resume": "Replaced ramipril_10mg with Doxazosin 1 mg once daily to eliminate ACE inhibitor-induced lithium toxicity.",
+      "reason_category": "drug_interaction",
+      "recommended_action_details": "Replace Ramipril with Doxazosin 1 mg once daily to remove the ACE inhibitor-mediated reduction in lithium excretion without using diuretics or ARBs which also interact.",
+      "new_medication": "Doxazosin",
+      "recommended_dosage": "1 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Hypertension",
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "interaction_undesirable_reaction",
+        "dtp_explanation": {
+          "target": "Ramipril therapy in a patient receiving concurrent lithium",
+          "undesirable_event_or_risk": "Elevated lithium level (0.98 mmol/L) with symptoms of toxicity including fine tremor and drowsiness",
+          "drug_therapy_involved": "Ramipril and Lithium",
+          "association": "Ramipril decreases renal clearance of lithium, leading to increased serum lithium concentrations and resultant toxicity manifested as fine tremor and drowsiness."
+        },
+        "cause_codes": [
+          "interaction_undesirable_reaction"
+        ],
+        "primary_cause_code": "interaction_undesirable_reaction",
+        "problem_summary": "Ramipril therapy in a patient receiving concurrent lithium — Elevated lithium level (0.98 mmol/L) with symptoms of toxicity including fine tremor and drowsiness",
+        "evidence": "Ramipril and Lithium; Ramipril decreases renal clearance of lithium, leading to increased serum lithium concentrations and resultant toxicity manifested as fine tremor and drowsiness.",
+        "confidence": "high",
+        "dtp_priority": "high",
+        "recommended_action": "replace",
+        "allowed_actions": [
+          "replace"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Ramipril therapy in a patient receiving concurrent lithium",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "replace",
+      "current_mar_line": "ramipril_10mg",
+      "mar_id": "ramipril_10mg",
+      "covered_indications": [
+        "Hypertension"
+      ],
+      "_stakeholder_indication_universe": [
+        "Hypertension"
+      ],
+      "non_pharmacological_treatment": false,
+      "current_dosage": "10 mg capsules: one capsule daily (increased two months prior to review)",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 5,
+      "health_problem": "Hypertension",
+      "prm_number": 5
+    },
+    {
+      "causal_explanation": "Lithium serum level is 0.98 mmol/L, exceeding the standard maintenance target (0.6–0.8 mmol/L, or 0.4–0.6 mmol/L in older adults), and is causing fine tremor and drowsiness. Reducing the dose of Priadel from 800 mg to 600 mg once daily at night will lower drug exposure, alleviate neurotoxicity symptoms, and maintain effective mood stabilization for Bipolar Type 1 Disorder safely.",
+      "recommendation_resume": "Reduced lithium_400mg dose to 600 mg once daily at night due to elevated level and neurotoxicity.",
+      "reason_for_high_dosage": "dose_too_high",
+      "recommended_dosage": "600 mg",
+      "recommended_frequency": "once daily",
+      "addressed_symptom": "Fine Tremor",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "dose_too_high",
+        "dtp_explanation": {
+          "target": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder",
+          "undesirable_event_or_risk": "Elevated serum lithium level (0.98 mmol/L) with active symptoms of neurotoxicity/adverse effects including fine tremor and drowsiness",
+          "drug_therapy_involved": "Lithium (Priadel®) 800 mg at night (400 mg x 2)",
+          "association": "In maintenance therapy for bipolar disorder, the standard target serum lithium range is typically 0.6–0.8 mmol/L (or 0.4–0.6 mmol/L in older adults). A level of 0.98 mmol/L accompanied by drowsiness and fine tremor indicates that the current dose produces excessive drug exposure and toxicity."
+        },
+        "cause_codes": [
+          "dose_too_high"
+        ],
+        "primary_cause_code": "dose_too_high",
+        "problem_summary": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder — Elevated serum lithium level (0.98 mmol/L) with active symptoms of neurotoxicity/adverse effects including fine tremor and drowsiness",
+        "evidence": "Lithium (Priadel®) 800 mg at night (400 mg x 2); In maintenance therapy for bipolar disorder, the standard target serum lithium range is typically 0.6–0.8 mmol/L (or 0.4–0.6 mmol/L in older adults). A level of 0.98 mmol/L accompanied by drowsiness and fine tremor indicates that the current dose produces excessive drug exposure and toxicity.",
+        "confidence": "high",
+        "dtp_priority": "high",
+        "recommended_action": "reduce_dosage",
+        "allowed_actions": [
+          "reduce_dosage"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "reduce_dosage",
+      "current_mar_line": "lithium_400mg",
+      "mar_id": "lithium_400mg",
+      "new_medication": "lithium_400mg",
+      "_stakeholder_indication_universe": [
+        "Bipolar Type 1 Disorder"
+      ],
+      "covered_indications": [
+        "Bipolar Type 1 Disorder"
+      ],
+      "indication": "Bipolar Type 1 Disorder",
+      "non_pharmacological_treatment": false,
+      "current_dosage": "(Priadel®) 400 mg tablets: two tablets at night",
+      "resulting_mar_line": "lithium_600mg_qday",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 6,
+      "health_problem": "Bipolar Type 1 Disorder",
+      "prm_number": 6
+    }
+  ],
+  "all_recommendations": [
+    {
+      "causal_explanation": "Quinine sulfate has an unfavorable risk-benefit profile for nocturnal leg cramps and carries significant toxicity risks, including increased neurotoxicity with lithium and myopathy risk with atorvastatin. Non-drug therapy is more appropriate as primary management (non_pharmacological_treatment=true), addressing prior rejection requiring explicit non-drug modalities and monitoring.",
+      "recommendation_resume": "Discontinue quinine_sulfate_200mg due to unfavorable risk-benefit balance and drug interaction risks.",
+      "recommended_action_details": "Discontinue Quinine Sulfate 200mg tablets. Implement non-pharmacological measures including regular calf stretching exercises prior to sleep, optimizing hydration, keeping bedding loose at the feet, and monitoring for cramp recurrence.",
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "non_pharmacological_treatment": true,
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "non_drug_therapy_more_appropriate",
+        "dtp_explanation": {
+          "target": "Quinine sulfate therapy for nocturnal leg cramps",
+          "undesirable_event_or_risk": "Unfavorable risk-benefit balance and serious drug interactions including increased neurotoxicity risk with lithium and statin-induced myopathy risk with atorvastatin",
+          "drug_therapy_involved": "Quinine Sulfate 200mg tablets",
+          "association": "Quinine sulfate is not recommended as routine first-line pharmacotherapy for nocturnal leg cramps due to poor risk-benefit profile and potential toxicity; non-pharmacological measures (e.g., calf stretching exercises, sleep positioning) and conservative management are more appropriate primary modalities."
+        },
+        "cause_codes": [
+          "non_drug_therapy_more_appropriate"
+        ],
+        "primary_cause_code": "non_drug_therapy_more_appropriate",
+        "problem_summary": "Quinine sulfate therapy for nocturnal leg cramps — Unfavorable risk-benefit balance and serious drug interactions including increased neurotoxicity risk with lithium and statin-induced myopathy risk with atorvastatin",
+        "evidence": "Quinine Sulfate 200mg tablets; Quinine sulfate is not recommended as routine first-line pharmacotherapy for nocturnal leg cramps due to poor risk-benefit profile and potential toxicity; non-pharmacological measures (e.g., calf stretching exercises, sleep positioning) and conservative management are more appropriate primary modalities.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "discontinue",
+        "allowed_actions": [
+          "discontinue"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Quinine sulfate therapy for nocturnal leg cramps",
+        "target_mar_lines": [
+          "quinine_sulfate_200mg"
+        ],
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "discontinue",
+      "current_mar_line": "quinine_sulfate_200mg",
+      "mar_id": "quinine_sulfate_200mg",
+      "new_medication": "False",
+      "covered_indications": [
+        "Nocturnal Leg Cramps"
+      ],
+      "indication": "Nocturnal Leg Cramps",
+      "_stakeholder_indication_universe": [
+        "Nocturnal Leg Cramps"
+      ],
+      "current_dosage": "200mg tablets: one tablet at night",
+      "recommended_dosage": "False",
+      "recommended_frequency": "False",
+      "mar_lines_to_combine": [],
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 1,
+      "health_problem": "Nocturnal Leg Cramps",
+      "prm_number": 1
+    },
+    {
+      "causal_explanation": "Average home blood pressure remains uncontrolled at 164/88 mmHg despite maximal-dose ramipril (10 mg daily). Per NICE NG136 Step 2 guidance, add a dihydropyridine calcium channel blocker (amlodipine) as an adjunct to the ACE inhibitor to achieve blood pressure control. Amlodipine does not interact with lithium, avoiding the lithium toxicity risks associated with thiazide-like diuretics. Monitor blood pressure and peripheral edema.",
+      "recommendation_resume": "Added amlodipine 5 mg once daily as adjunct therapy for uncontrolled hypertension.",
+      "new_medication": "Amlodipine",
+      "recommended_dosage": "5 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Hypertension",
+      "covered_indications": [
+        "Hypertension"
+      ],
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "needs_adjunct_escalation_add",
+        "dtp_explanation": {
+          "target": "Hypertension blood pressure control",
+          "undesirable_event_or_risk": "Persistently elevated average home blood pressure (164/88 mmHg) documented as evidence of uncontrolled hypertension despite maximum dose monotherapy",
+          "drug_therapy_involved": "Ramipril 10mg daily",
+          "association": "Ramipril has already been titrated to the maximum recommended dose (10mg daily) two months ago, yet chart evidence indicates uncontrolled hypertension requiring a guideline-directed distinct adjunct agent (such as a calcium channel blocker or thiazide-like diuretic) to achieve blood pressure targets."
+        },
+        "cause_codes": [
+          "needs_adjunct_escalation_add"
+        ],
+        "primary_cause_code": "needs_adjunct_escalation_add",
+        "problem_summary": "Hypertension blood pressure control — Persistently elevated average home blood pressure (164/88 mmHg) documented as evidence of uncontrolled hypertension despite maximum dose monotherapy",
+        "evidence": "Ramipril 10mg daily; Ramipril has already been titrated to the maximum recommended dose (10mg daily) two months ago, yet chart evidence indicates uncontrolled hypertension requiring a guideline-directed distinct adjunct agent (such as a calcium channel blocker or thiazide-like diuretic) to achieve blood pressure targets.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "add",
+        "allowed_actions": [
+          "add"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Hypertension blood pressure control",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "add",
+      "_flow_analyzed_medication_name": "False",
+      "non_pharmacological_treatment": false,
+      "current_mar_line": "False",
+      "_stakeholder_indication_universe": [
+        "Nocturnal Leg Cramps",
+        "Hypertension",
+        "Primary Hypercholesterolaemia",
+        "Bipolar Type 1 Disorder",
+        "Retired",
+        "Does Not Smoke",
+        "Drinks Alcohol"
+      ],
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 2,
+      "health_problem": "Hypertension",
+      "prm_number": 2
+    },
+    {
+      "adverse_reaction": "Nocturnal leg cramps / statin-associated muscle symptoms",
+      "causal_explanation": "Atorvastatin is contributing to nocturnal leg cramps. Switching to pravastatin, a hydrophilic statin with lower myotoxicity risk and minimal CYP3A4 metabolism, maintains cholesterol control while alleviating muscle symptoms.",
+      "recommendation_resume": "Replaced atorvastatin_20mg with pravastatin to alleviate nocturnal leg cramps.",
+      "reason_category": "undesirable_effect",
+      "recommended_action_details": "Replace atorvastatin with pravastatin 20 mg once daily to maintain lipid management with reduced risk of muscle-related adverse effects.",
+      "new_medication": "Pravastatin",
+      "recommended_dosage": "20 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Primary Hypercholesterolaemia",
+      "addressed_symptom": "Nocturnal Leg Cramps",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "non_dose_related_undesirable_reaction",
+        "dtp_explanation": {
+          "target": "Atorvastatin therapy for Primary Hypercholesterolaemia",
+          "undesirable_event_or_risk": "Nocturnal leg cramps / statin-associated muscle symptoms",
+          "drug_therapy_involved": "Atorvastatin 20mg daily",
+          "association": "Atorvastatin is documented to cause or contribute to muscle-related adverse effects, manifesting as nocturnal leg cramps."
+        },
+        "cause_codes": [
+          "non_dose_related_undesirable_reaction"
+        ],
+        "primary_cause_code": "non_dose_related_undesirable_reaction",
+        "problem_summary": "Atorvastatin therapy for Primary Hypercholesterolaemia — Nocturnal leg cramps / statin-associated muscle symptoms",
+        "evidence": "Atorvastatin 20mg daily; Atorvastatin is documented to cause or contribute to muscle-related adverse effects, manifesting as nocturnal leg cramps.",
+        "confidence": "high",
+        "dtp_priority": "medium",
+        "recommended_action": "replace",
+        "allowed_actions": [
+          "replace"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Atorvastatin therapy for Primary Hypercholesterolaemia",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "replace",
+      "current_mar_line": "atorvastatin_20mg",
+      "mar_id": "atorvastatin_20mg",
+      "_stakeholder_indication_universe": [
+        "Primary Hypercholesterolaemia"
+      ],
+      "covered_indications": [
+        "Primary Hypercholesterolaemia"
+      ],
+      "non_pharmacological_treatment": false,
+      "current_dosage": "20 mg tablets: one tablet daily",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 5,
+      "health_problem": "Primary Hypercholesterolaemia",
+      "prm_number": 5
+    },
+    {
+      "adverse_reaction": "Elevated lithium concentration and lithium toxicity manifested by fine tremor and drowsiness due to drug interaction.",
+      "causal_explanation": "Ramipril reduces renal lithium clearance, causing toxicity (level 0.98 mmol/L, tremor, drowsiness). Replacing ramipril with indapamide is unsafe because thiazide-like diuretics significantly decrease lithium clearance and worsen toxicity. ARBs also impair lithium clearance. Doxazosin, an alpha-1 blocker, does not impair renal lithium elimination or affect serum lithium levels, making it a safe replacement to maintain blood pressure control alongside added amlodipine without exacerbating lithium toxicity.",
+      "recommendation_resume": "Replaced ramipril_10mg with Doxazosin 1 mg once daily to eliminate ACE inhibitor-induced lithium toxicity.",
+      "reason_category": "drug_interaction",
+      "recommended_action_details": "Replace Ramipril with Doxazosin 1 mg once daily to remove the ACE inhibitor-mediated reduction in lithium excretion without using diuretics or ARBs which also interact.",
+      "new_medication": "Doxazosin",
+      "recommended_dosage": "1 mg",
+      "recommended_frequency": "once daily",
+      "indication": "Hypertension",
+      "addressed_symptom": "N/A",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "interaction_undesirable_reaction",
+        "dtp_explanation": {
+          "target": "Ramipril therapy in a patient receiving concurrent lithium",
+          "undesirable_event_or_risk": "Elevated lithium level (0.98 mmol/L) with symptoms of toxicity including fine tremor and drowsiness",
+          "drug_therapy_involved": "Ramipril and Lithium",
+          "association": "Ramipril decreases renal clearance of lithium, leading to increased serum lithium concentrations and resultant toxicity manifested as fine tremor and drowsiness."
+        },
+        "cause_codes": [
+          "interaction_undesirable_reaction"
+        ],
+        "primary_cause_code": "interaction_undesirable_reaction",
+        "problem_summary": "Ramipril therapy in a patient receiving concurrent lithium — Elevated lithium level (0.98 mmol/L) with symptoms of toxicity including fine tremor and drowsiness",
+        "evidence": "Ramipril and Lithium; Ramipril decreases renal clearance of lithium, leading to increased serum lithium concentrations and resultant toxicity manifested as fine tremor and drowsiness.",
+        "confidence": "high",
+        "dtp_priority": "high",
+        "recommended_action": "replace",
+        "allowed_actions": [
+          "replace"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Ramipril therapy in a patient receiving concurrent lithium",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "replace",
+      "current_mar_line": "ramipril_10mg",
+      "mar_id": "ramipril_10mg",
+      "covered_indications": [
+        "Hypertension"
+      ],
+      "_stakeholder_indication_universe": [
+        "Hypertension"
+      ],
+      "non_pharmacological_treatment": false,
+      "current_dosage": "10 mg capsules: one capsule daily (increased two months prior to review)",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 5,
+      "health_problem": "Hypertension",
+      "prm_number": 5
+    },
+    {
+      "causal_explanation": "Lithium serum level is 0.98 mmol/L, exceeding the standard maintenance target (0.6–0.8 mmol/L, or 0.4–0.6 mmol/L in older adults), and is causing fine tremor and drowsiness. Reducing the dose of Priadel from 800 mg to 600 mg once daily at night will lower drug exposure, alleviate neurotoxicity symptoms, and maintain effective mood stabilization for Bipolar Type 1 Disorder safely.",
+      "recommendation_resume": "Reduced lithium_400mg dose to 600 mg once daily at night due to elevated level and neurotoxicity.",
+      "reason_for_high_dosage": "dose_too_high",
+      "recommended_dosage": "600 mg",
+      "recommended_frequency": "once daily",
+      "addressed_symptom": "Fine Tremor",
+      "risk_level": "low",
+      "_prm_dtp_detection": {
+        "has_dtp": true,
+        "dtp_flag": "dose_too_high",
+        "dtp_explanation": {
+          "target": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder",
+          "undesirable_event_or_risk": "Elevated serum lithium level (0.98 mmol/L) with active symptoms of neurotoxicity/adverse effects including fine tremor and drowsiness",
+          "drug_therapy_involved": "Lithium (Priadel®) 800 mg at night (400 mg x 2)",
+          "association": "In maintenance therapy for bipolar disorder, the standard target serum lithium range is typically 0.6–0.8 mmol/L (or 0.4–0.6 mmol/L in older adults). A level of 0.98 mmol/L accompanied by drowsiness and fine tremor indicates that the current dose produces excessive drug exposure and toxicity."
+        },
+        "cause_codes": [
+          "dose_too_high"
+        ],
+        "primary_cause_code": "dose_too_high",
+        "problem_summary": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder — Elevated serum lithium level (0.98 mmol/L) with active symptoms of neurotoxicity/adverse effects including fine tremor and drowsiness",
+        "evidence": "Lithium (Priadel®) 800 mg at night (400 mg x 2); In maintenance therapy for bipolar disorder, the standard target serum lithium range is typically 0.6–0.8 mmol/L (or 0.4–0.6 mmol/L in older adults). A level of 0.98 mmol/L accompanied by drowsiness and fine tremor indicates that the current dose produces excessive drug exposure and toxicity.",
+        "confidence": "high",
+        "dtp_priority": "high",
+        "recommended_action": "reduce_dosage",
+        "allowed_actions": [
+          "reduce_dosage"
+        ],
+        "disposition": "actionable_here",
+        "target_symptom": "Lithium dosing and serum concentration in maintenance therapy for Bipolar Type 1 Disorder",
+        "active_risks": [],
+        "implicated_risk_classes": [],
+        "_risk_binder": {
+          "active_risks": [],
+          "incompatible_med_classes": [],
+          "current_risk_classes": [],
+          "implicated_risk_classes": [],
+          "coverage_gate_candidate": false
+        }
+      },
+      "action": "reduce_dosage",
+      "current_mar_line": "lithium_400mg",
+      "mar_id": "lithium_400mg",
+      "new_medication": "lithium_400mg",
+      "_stakeholder_indication_universe": [
+        "Bipolar Type 1 Disorder"
+      ],
+      "covered_indications": [
+        "Bipolar Type 1 Disorder"
+      ],
+      "indication": "Bipolar Type 1 Disorder",
+      "non_pharmacological_treatment": false,
+      "current_dosage": "(Priadel®) 400 mg tablets: two tablets at night",
+      "resulting_mar_line": "lithium_600mg_qday",
+      "_prm_ac_validated": true,
+      "_prm_validation_source": "generation_ac",
+      "prm": 6,
+      "health_problem": "Bipolar Type 1 Disorder",
+      "prm_number": 6
+    }
+  ],
+  "removed_recommendations": [],
+  "starting_medications": [
+    {
+      "name": "Atorvastatin",
+      "dosage": "20mg tablets: one tablet daily",
+      "status": "active",
+      "source_text": "Atorvastatin 20mg tablets: one tablet daily",
+      "mar_source": "current",
+      "owner_key": "med:atorvastatin|20mg tablets: one tablet daily|",
+      "item_id": 1,
+      "line_alias": "atorvastatin_20mg",
+      "indication": [],
+      "symptom_indication": [],
+      "adherence_issues": []
+    },
+    {
+      "name": "Lithium",
+      "dosage": "(Priadel®) 400mg tablets: two tablets at night",
+      "status": "active",
+      "source_text": "Lithium (Priadel®) 400mg tablets: two tablets at night",
+      "mar_source": "current",
+      "owner_key": "med:lithium|(priadel®) 400mg tablets: two tablets at night|",
+      "item_id": 2,
+      "line_alias": "lithium_400mg",
+      "indication": [],
+      "symptom_indication": [],
+      "adherence_issues": []
+    },
+    {
+      "name": "Quinine Sulfate",
+      "dosage": "200mg tablets: one tablet at night",
+      "status": "active",
+      "source_text": "Quinine sulfate 200mg tablets: one tablet at night",
+      "mar_source": "current",
+      "owner_key": "med:quinine sulfate|200mg tablets: one tablet at night|",
+      "item_id": 3,
+      "line_alias": "quinine_sulfate_200mg",
+      "indication": [],
+      "symptom_indication": [],
+      "adherence_issues": []
+    },
+    {
+      "name": "Ramipril",
+      "dosage": "10mg capsules: one capsule daily (increased two months prior to review)",
+      "status": "active",
+      "source_text": "Ramipril 10mg capsules: one capsule daily (increased two months prior to review)",
+      "mar_source": "current",
+      "owner_key": "med:ramipril|10mg capsules: one capsule daily (increased two months prior to review)|",
+      "item_id": 4,
+      "line_alias": "ramipril_10mg",
+      "indication": [],
+      "symptom_indication": [],
+      "adherence_issues": []
+    }
+  ],
+  "proposed_regimen": {
+    "chart_basis": "prm_starting_medications",
+    "starting_medication_count": 4,
+    "medication_count": 4,
+    "valid_recommendations_applied": 5,
+    "summary": {
+      "preserved": 0,
+      "changed": 1,
+      "new": 3,
+      "removed": 3,
+      "total_in_regimen": 4
+    },
+    "medications": [
+      {
+        "item_id": 2,
+        "line_alias": "lithium_600mg_qday",
+        "name": "Lithium",
+        "dosage": "600 mg",
+        "frequency": "once daily",
+        "indication": [],
+        "symptom_indication": [],
+        "status": "active",
+        "start_date": "N/A",
+        "end_date": "N/A",
+        "documentation_date": "N/A",
+        "care_goal": "N/A",
+        "adherence_issues": []
+      },
+      {
+        "name": "Amlodipine",
+        "dosage": "5 mg",
+        "frequency": "once daily",
+        "indication": [
+          "Hypertension"
+        ],
+        "symptom_indication": [],
+        "status": "active",
+        "start_date": "N/A",
+        "end_date": "N/A",
+        "documentation_date": "N/A",
+        "care_goal": "N/A",
+        "adherence_issues": []
+      },
+      {
+        "name": "Pravastatin",
+        "dosage": "20 mg",
+        "frequency": "once daily",
+        "indication": [
+          "Primary Hypercholesterolaemia"
+        ],
+        "symptom_indication": [],
+        "status": "active",
+        "start_date": "N/A",
+        "end_date": "N/A",
+        "documentation_date": "N/A",
+        "care_goal": "N/A",
+        "adherence_issues": []
+      },
+      {
+        "name": "Doxazosin",
+        "dosage": "1 mg",
+        "frequency": "once daily",
+        "indication": [
+          "Hypertension"
+        ],
+        "symptom_indication": [],
+        "status": "active",
+        "start_date": "N/A",
+        "end_date": "N/A",
+        "documentation_date": "N/A",
+        "care_goal": "N/A",
+        "adherence_issues": []
+      }
+    ],
+    "proposed_regimen_lines": [
+      "Lithium 600 mg once daily",
+      "Amlodipine 5 mg once daily",
+      "Pravastatin 20 mg once daily",
+      "Doxazosin 1 mg once daily"
+    ],
+    "discontinued": [
+      {
+        "name": "Atorvastatin",
+        "original_dosage": "20mg tablets: one tablet daily"
+      },
+      {
+        "name": "Quinine Sulfate",
+        "original_dosage": "200mg tablets: one tablet at night"
+      },
+      {
+        "name": "Ramipril",
+        "original_dosage": "10mg capsules: one capsule daily (increased two months prior to review)"
+      }
+    ]
+  },
+  "patient_data": {
+    "medications": [
+      {
+        "name": "Atorvastatin",
+        "dosage": "20mg tablets: one tablet daily",
+        "status": "active",
+        "source_text": "Atorvastatin 20mg tablets: one tablet daily",
+        "mar_source": "current",
+        "owner_key": "med:atorvastatin|20mg tablets: one tablet daily|",
+        "item_id": 1,
+        "line_alias": "atorvastatin_20mg",
+        "indication": [],
+        "symptom_indication": [],
+        "adherence_issues": []
+      },
+      {
+        "name": "Lithium",
+        "dosage": "(Priadel®) 400mg tablets: two tablets at night",
+        "status": "active",
+        "source_text": "Lithium (Priadel®) 400mg tablets: two tablets at night",
+        "mar_source": "current",
+        "owner_key": "med:lithium|(priadel®) 400mg tablets: two tablets at night|",
+        "item_id": 2,
+        "line_alias": "lithium_400mg",
+        "indication": [],
+        "symptom_indication": [],
+        "adherence_issues": []
+      },
+      {
+        "name": "Quinine Sulfate",
+        "dosage": "200mg tablets: one tablet at night",
+        "status": "active",
+        "source_text": "Quinine sulfate 200mg tablets: one tablet at night",
+        "mar_source": "current",
+        "owner_key": "med:quinine sulfate|200mg tablets: one tablet at night|",
+        "item_id": 3,
+        "line_alias": "quinine_sulfate_200mg",
+        "indication": [],
+        "symptom_indication": [],
+        "adherence_issues": []
+      },
+      {
+        "name": "Ramipril",
+        "dosage": "10mg capsules: one capsule daily (increased two months prior to review)",
+        "status": "active",
+        "source_text": "Ramipril 10mg capsules: one capsule daily (increased two months prior to review)",
+        "mar_source": "current",
+        "owner_key": "med:ramipril|10mg capsules: one capsule daily (increased two months prior to review)|",
+        "item_id": 4,
+        "line_alias": "ramipril_10mg",
+        "indication": [],
+        "symptom_indication": [],
+        "adherence_issues": []
+      }
+    ],
+    "medical_conditions": [
+      {
+        "name": "Nocturnal Leg Cramps",
+        "type": "disease",
+        "name_in_text": "Nocturnal leg cramps – 18 months ago",
+        "owner_key": "cond:nocturnal leg cramps",
+        "item_id": 5,
+        "line_alias": "nocturnal_leg_cramps",
+        "icd_code": "N/A",
+        "icd_version": "N/A",
+        "care_type": "N/A"
+      },
+      {
+        "name": "Hypertension",
+        "type": "disease",
+        "name_in_text": "Hypertension – 20 years ago",
+        "owner_key": "cond:hypertension",
+        "item_id": 6,
+        "line_alias": "hypertension",
+        "icd_code": "N/A",
+        "icd_version": "N/A",
+        "care_type": "N/A"
+      },
+      {
+        "name": "Primary Hypercholesterolaemia",
+        "type": "disease",
+        "name_in_text": "Primary hypercholesterolaemia – 20 years ago",
+        "owner_key": "cond:primary hypercholesterolaemia",
+        "item_id": 7,
+        "line_alias": "ph",
+        "icd_code": "N/A",
+        "icd_version": "N/A",
+        "care_type": "N/A"
+      },
+      {
+        "name": "Bipolar Type 1 Disorder",
+        "type": "disease",
+        "name_in_text": "Bipolar Type 1 disorder – 38 years ago",
+        "owner_key": "cond:bipolar type 1 disorder",
+        "item_id": 8,
+        "line_alias": "bipolar_type_1_disorder",
+        "icd_code": "N/A",
+        "icd_version": "N/A",
+        "care_type": "N/A"
+      },
+      {
+        "name": "Retired",
+        "type": "history",
+        "care_type": "history",
+        "name_in_text": "retired",
+        "owner_key": "cond:retired",
+        "item_id": 9,
+        "line_alias": "retired",
+        "icd_code": "N/A",
+        "icd_version": "N/A"
+      },
+      {
+        "name": "Does Not Smoke",
+        "type": "history",
+        "care_type": "history",
+        "name_in_text": "Does not smoke",
+        "owner_key": "cond:does not smoke",
+        "item_id": 10,
+        "line_alias": "does_not_smoke",
+        "icd_code": "N/A",
+        "icd_version": "N/A"
+      },
+      {
+        "name": "Drinks Alcohol",
+        "type": "history",
+        "care_type": "history",
+        "name_in_text": "Drinks around five units of alcohol per week, although reports this can vary considerably",
+        "owner_key": "cond:drinks alcohol",
+        "item_id": 11,
+        "line_alias": "drinks_alcohol",
+        "icd_code": "N/A",
+        "icd_version": "N/A"
+      }
+    ],
+    "test_results": [
+      {
+        "name": "Weight",
+        "value": "64kg",
+        "band": "within normal range",
+        "source_text": "Weight 64kg",
+        "owner_key": "exam:weight",
+        "item_id": 12,
+        "line_alias": "weight"
+      },
+      {
+        "name": "Height",
+        "value": "163cm",
+        "band": "within normal range",
+        "source_text": "Height 163cm",
+        "owner_key": "exam:height",
+        "item_id": 13,
+        "line_alias": "height"
+      },
+      {
+        "name": "BMI",
+        "value": "24kg/m2",
+        "band": "within normal range",
+        "source_text": "BMI 24kg/m2",
+        "owner_key": "exam:bmi",
+        "item_id": 14,
+        "line_alias": "bmi"
+      },
+      {
+        "name": "Average home blood pressure",
+        "value": "164/88mmgHg",
+        "band": "high",
+        "source_text": "Average home blood pressure reading: 164/88mmgHg (8 weeks prior to review)",
+        "owner_key": "exam:average home blood pressure",
+        "item_id": 15,
+        "line_alias": "average_home_blood_pressure"
+      },
+      {
+        "name": "Urea and Electrolytes",
+        "value": "satisfactory with no deterioration in eGFR",
+        "band": "within normal range",
+        "source_text": "Urea and Electrolytes satisfactory with no deterioration in eGFR",
+        "owner_key": "exam:urea and electrolytes",
+        "item_id": 16,
+        "line_alias": "urea_and_electrolytes"
+      },
+      {
+        "name": "Creatinine",
+        "value": "70micromol/L",
+        "band": "within normal range",
+        "source_text": "Creatinine 70micromol/L (60-120micromol/L)",
+        "owner_key": "exam:creatinine",
+        "item_id": 17,
+        "line_alias": "creatinine"
+      },
+      {
+        "name": "eGFR",
+        "value": "greater than 60ml/min/1.73m2",
+        "band": "within normal range",
+        "source_text": "eGFR greater than 60ml/min/1.73m2",
+        "owner_key": "exam:egfr",
+        "item_id": 18,
+        "line_alias": "egfr"
+      },
+      {
+        "name": "Cholesterol",
+        "value": "within normal range (on current treatment)",
+        "band": "within normal range",
+        "source_text": "Cholesterol within normal range (on current treatment)",
+        "owner_key": "exam:cholesterol",
+        "item_id": 19,
+        "line_alias": "cholesterol"
+      },
+      {
+        "name": "LFTs",
+        "value": "within normal ranges",
+        "band": "within normal range",
+        "source_text": "LFTs, TSH, bone profile within normal ranges",
+        "owner_key": "exam:lfts",
+        "item_id": 20,
+        "line_alias": "lfts"
+      },
+      {
+        "name": "TSH",
+        "value": "within normal ranges",
+        "band": "within normal range",
+        "source_text": "LFTs, TSH, bone profile within normal ranges",
+        "owner_key": "exam:tsh",
+        "item_id": 21,
+        "line_alias": "tsh"
+      },
+      {
+        "name": "bone profile",
+        "value": "within normal ranges",
+        "band": "within normal range",
+        "source_text": "LFTs, TSH, bone profile within normal ranges",
+        "owner_key": "exam:bone profile",
+        "item_id": 22,
+        "line_alias": "bone_profile"
+      },
+      {
+        "name": "Lithium level",
+        "value": "0.98mmol/L",
+        "band": "within normal range",
+        "source_text": "0.98mmol/L (two weeks prior to review)",
+        "owner_key": "exam:lithium level",
+        "item_id": 23,
+        "line_alias": "lithium_level"
+      },
+      {
+        "name": "Clinical Frailty Score (Rockwood)",
+        "value": "3 (managing well)",
+        "band": "within normal range",
+        "source_text": "Clinical Frailty Score (Rockwood) 3 (managing well)",
+        "owner_key": "exam:clinical frailty score (rockwood)",
+        "item_id": 24,
+        "line_alias": "cfsr"
+      },
+      {
+        "name": "Average home blood pressure reading",
+        "value": "134/84mmHg",
+        "band": "within normal range",
+        "source_text": "Average home blood pressure reading: 164/88mmgHg (8 weeks prior to review); 134/84mmHg (4 weeks prior to review)",
+        "owner_key": "exam:average home blood pressure reading",
+        "item_id": 25,
+        "line_alias": "ahbpr"
+      }
+    ],
+    "patient_info": {
+      "age": 67,
+      "gender": "F"
+    },
+    "issues": [
+      {
+        "name": "Drowsiness",
+        "source_text": "Drowsiness and fine tremor noted"
+      },
+      {
+        "name": "Fine Tremor",
+        "source_text": "Drowsiness and fine tremor noted"
+      }
+    ],
+    "care_context_facts": [
+      {
+        "name": "no known drug allergies",
+        "source_text": "Allergies or adverse drugs reactions (ADRs): nil"
+      },
+      {
+        "name": "walking",
+        "source_text": "Keeps active (walking)"
+      }
+    ],
+    "_session_item_id_registry": {
+      "1": {
+        "item_id": 1,
+        "name": "Atorvastatin",
+        "dosage": "20mg tablets: one tablet daily",
+        "frequency": "Not specified",
+        "line_alias": "atorvastatin_20mg"
+      },
+      "2": {
+        "item_id": 2,
+        "name": "Lithium",
+        "dosage": "(Priadel®) 400mg tablets: two tablets at night",
+        "frequency": "Not specified",
+        "line_alias": "lithium_400mg"
+      },
+      "3": {
+        "item_id": 3,
+        "name": "Quinine Sulfate",
+        "dosage": "200mg tablets: one tablet at night",
+        "frequency": "Not specified",
+        "line_alias": "quinine_sulfate_200mg"
+      },
+      "4": {
+        "item_id": 4,
+        "name": "Ramipril",
+        "dosage": "10mg capsules: one capsule daily (increased two months prior to review)",
+        "frequency": "Not specified",
+        "line_alias": "ramipril_10mg"
+      },
+      "5": {
+        "item_id": 5,
+        "name": "Nocturnal Leg Cramps",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "nocturnal_leg_cramps"
+      },
+      "6": {
+        "item_id": 6,
+        "name": "Hypertension",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "hypertension"
+      },
+      "7": {
+        "item_id": 7,
+        "name": "Primary Hypercholesterolaemia",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "ph"
+      },
+      "8": {
+        "item_id": 8,
+        "name": "Bipolar Type 1 Disorder",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "bipolar_type_1_disorder"
+      },
+      "9": {
+        "item_id": 9,
+        "name": "Retired",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "retired"
+      },
+      "10": {
+        "item_id": 10,
+        "name": "Does Not Smoke",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "does_not_smoke"
+      },
+      "11": {
+        "item_id": 11,
+        "name": "Drinks Alcohol",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "drinks_alcohol"
+      },
+      "12": {
+        "item_id": 12,
+        "name": "Weight",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "weight"
+      },
+      "13": {
+        "item_id": 13,
+        "name": "Height",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "height"
+      },
+      "14": {
+        "item_id": 14,
+        "name": "BMI",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "bmi"
+      },
+      "15": {
+        "item_id": 15,
+        "name": "Average home blood pressure",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "average_home_blood_pressure"
+      },
+      "16": {
+        "item_id": 16,
+        "name": "Urea and Electrolytes",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "urea_and_electrolytes"
+      },
+      "17": {
+        "item_id": 17,
+        "name": "Creatinine",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "creatinine"
+      },
+      "18": {
+        "item_id": 18,
+        "name": "eGFR",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "egfr"
+      },
+      "19": {
+        "item_id": 19,
+        "name": "Cholesterol",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "cholesterol"
+      },
+      "20": {
+        "item_id": 20,
+        "name": "LFTs",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "lfts"
+      },
+      "21": {
+        "item_id": 21,
+        "name": "TSH",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "tsh"
+      },
+      "22": {
+        "item_id": 22,
+        "name": "bone profile",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "bone_profile"
+      },
+      "23": {
+        "item_id": 23,
+        "name": "Lithium level",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "lithium_level"
+      },
+      "24": {
+        "item_id": 24,
+        "name": "Clinical Frailty Score (Rockwood)",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "cfsr"
+      },
+      "25": {
+        "item_id": 25,
+        "name": "Average home blood pressure reading",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "ahbpr"
+      }
+    },
+    "_session_item_id_high_water": 25,
+    "_session_line_alias_registry": {
+      "atorvastatin_20mg": {
+        "item_id": 1,
+        "name": "Atorvastatin",
+        "dosage": "20mg tablets: one tablet daily",
+        "frequency": "Not specified",
+        "line_alias": "atorvastatin_20mg"
+      },
+      "lithium_400mg": {
+        "item_id": 2,
+        "name": "Lithium",
+        "dosage": "(Priadel®) 400mg tablets: two tablets at night",
+        "frequency": "Not specified",
+        "line_alias": "lithium_400mg"
+      },
+      "quinine_sulfate_200mg": {
+        "item_id": 3,
+        "name": "Quinine Sulfate",
+        "dosage": "200mg tablets: one tablet at night",
+        "frequency": "Not specified",
+        "line_alias": "quinine_sulfate_200mg"
+      },
+      "ramipril_10mg": {
+        "item_id": 4,
+        "name": "Ramipril",
+        "dosage": "10mg capsules: one capsule daily (increased two months prior to review)",
+        "frequency": "Not specified",
+        "line_alias": "ramipril_10mg"
+      },
+      "nocturnal_leg_cramps": {
+        "item_id": 5,
+        "name": "Nocturnal Leg Cramps",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "nocturnal_leg_cramps"
+      },
+      "hypertension": {
+        "item_id": 6,
+        "name": "Hypertension",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "hypertension"
+      },
+      "ph": {
+        "item_id": 7,
+        "name": "Primary Hypercholesterolaemia",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "ph"
+      },
+      "bipolar_type_1_disorder": {
+        "item_id": 8,
+        "name": "Bipolar Type 1 Disorder",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "bipolar_type_1_disorder"
+      },
+      "retired": {
+        "item_id": 9,
+        "name": "Retired",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "retired"
+      },
+      "does_not_smoke": {
+        "item_id": 10,
+        "name": "Does Not Smoke",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "does_not_smoke"
+      },
+      "drinks_alcohol": {
+        "item_id": 11,
+        "name": "Drinks Alcohol",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "drinks_alcohol"
+      },
+      "weight": {
+        "item_id": 12,
+        "name": "Weight",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "weight"
+      },
+      "height": {
+        "item_id": 13,
+        "name": "Height",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "height"
+      },
+      "bmi": {
+        "item_id": 14,
+        "name": "BMI",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "bmi"
+      },
+      "average_home_blood_pressure": {
+        "item_id": 15,
+        "name": "Average home blood pressure",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "average_home_blood_pressure"
+      },
+      "urea_and_electrolytes": {
+        "item_id": 16,
+        "name": "Urea and Electrolytes",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "urea_and_electrolytes"
+      },
+      "creatinine": {
+        "item_id": 17,
+        "name": "Creatinine",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "creatinine"
+      },
+      "egfr": {
+        "item_id": 18,
+        "name": "eGFR",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "egfr"
+      },
+      "cholesterol": {
+        "item_id": 19,
+        "name": "Cholesterol",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "cholesterol"
+      },
+      "lfts": {
+        "item_id": 20,
+        "name": "LFTs",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "lfts"
+      },
+      "tsh": {
+        "item_id": 21,
+        "name": "TSH",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "tsh"
+      },
+      "bone_profile": {
+        "item_id": 22,
+        "name": "bone profile",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "bone_profile"
+      },
+      "lithium_level": {
+        "item_id": 23,
+        "name": "Lithium level",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "lithium_level"
+      },
+      "cfsr": {
+        "item_id": 24,
+        "name": "Clinical Frailty Score (Rockwood)",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "cfsr"
+      },
+      "ahbpr": {
+        "item_id": 25,
+        "name": "Average home blood pressure reading",
+        "dosage": "Not specified",
+        "frequency": "Not specified",
+        "line_alias": "ahbpr"
+      }
+    },
+    "_chart_links": [
+      {
+        "focus_kind": "diagnosis",
+        "focus_id": "cond-5",
+        "focus_name": "Nocturnal Leg Cramps",
+        "target_kind": "medication",
+        "target_id": "3",
+        "target_name": "Quinine Sulfate",
+        "pair": "diagnosis_medication",
+        "relation": "treats",
+        "inverse_relation": "treats",
+        "reason": "Quinine sulfate is commonly prescribed to treat or alleviate nocturnal leg cramps."
+      },
+      {
+        "focus_kind": "diagnosis",
+        "focus_id": "cond-6",
+        "focus_name": "Hypertension",
+        "target_kind": "exam",
+        "target_id": "15",
+        "target_name": "Average home blood pressure",
+        "pair": "diagnosis_exam",
+        "relation": "evidence_uncontrolled",
+        "inverse_relation": "uncontrolled_evidence_for",
+        "reason": "Average home blood pressure 164/88mmgHg"
+      },
+      {
+        "focus_kind": "diagnosis",
+        "focus_id": "cond-6",
+        "focus_name": "Hypertension",
+        "target_kind": "exam",
+        "target_id": "25",
+        "target_name": "Average home blood pressure reading",
+        "pair": "diagnosis_exam",
+        "relation": "evidence_controlled",
+        "inverse_relation": "controlled_evidence_for",
+        "reason": "Average home blood pressure reading 134/84mmHg."
+      },
+      {
+        "focus_kind": "diagnosis",
+        "focus_id": "cond-7",
+        "focus_name": "Primary Hypercholesterolaemia",
+        "target_kind": "medication",
+        "target_id": "1",
+        "target_name": "Atorvastatin",
+        "pair": "diagnosis_medication",
+        "relation": "treats",
+        "inverse_relation": "treats",
+        "reason": "Atorvastatin is a statin indicated for the treatment of primary hypercholesterolaemia to reduce elevated cholesterol levels."
+      },
+      {
+        "focus_kind": "diagnosis",
+        "focus_id": "cond-7",
+        "focus_name": "Primary Hypercholesterolaemia",
+        "target_kind": "exam",
+        "target_id": "19",
+        "target_name": "Cholesterol",
+        "pair": "diagnosis_exam",
+        "relation": "evidence_controlled",
+        "inverse_relation": "controlled_evidence_for",
+        "reason": "Cholesterol within normal range (on current treatment)"
+      },
+      {
+        "focus_kind": "diagnosis",
+        "focus_id": "cond-8",
+        "focus_name": "Bipolar Type 1 Disorder",
+        "target_kind": "medication",
+        "target_id": "2",
+        "target_name": "Lithium",
+        "pair": "diagnosis_medication",
+        "relation": "treats",
+        "inverse_relation": "treats",
+        "reason": "Lithium is a standard mood stabilizer used to treat and manage Bipolar Type 1 Disorder."
+      },
+      {
+        "focus_kind": "diagnosis",
+        "focus_id": "cond-8",
+        "focus_name": "Bipolar Type 1 Disorder",
+        "target_kind": "exam",
+        "target_id": "23",
+        "target_name": "Lithium level",
+        "pair": "diagnosis_exam",
+        "relation": "evidence_controlled",
+        "inverse_relation": "controlled_evidence_for",
+        "reason": "Lithium level 0.98mmol/L is within the therapeutic range for maintenance and treatment of bipolar disorder."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "1",
+        "focus_name": "Atorvastatin",
+        "target_kind": "diagnosis",
+        "target_id": "cond-5",
+        "target_name": "Nocturnal Leg Cramps",
+        "pair": "medication_diagnosis",
+        "relation": "causes",
+        "inverse_relation": "causes",
+        "reason": "Statins such as atorvastatin are known to cause or contribute to muscle-related adverse effects including leg cramps."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "1",
+        "focus_name": "Atorvastatin",
+        "target_kind": "medication",
+        "target_id": "3",
+        "target_name": "Quinine Sulfate",
+        "pair": "medication_medication",
+        "relation": "interaction_risk",
+        "inverse_relation": "interaction_risk",
+        "reason": "Quinine can interact with atorvastatin, potentially increasing the risk of statin-induced myopathy or rhabdomyolysis."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "1",
+        "focus_name": "Atorvastatin",
+        "target_kind": "medication",
+        "target_id": "4",
+        "target_name": "Ramipril",
+        "pair": "medication_medication",
+        "relation": "combination_candidate",
+        "inverse_relation": "combination_candidate",
+        "reason": "Ramipril. 10mg capsules: one capsule daily (increased two months prior to review)"
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "1",
+        "focus_name": "Atorvastatin",
+        "target_kind": "exam",
+        "target_id": "19",
+        "target_name": "Cholesterol",
+        "pair": "medication_exam",
+        "relation": "treats",
+        "inverse_relation": "treats",
+        "reason": "Cholesterol within normal range (on current treatment)"
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "1",
+        "focus_name": "Atorvastatin",
+        "target_kind": "exam",
+        "target_id": "20",
+        "target_name": "LFTs",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "LFTs within normal ranges"
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "medication",
+        "target_id": "3",
+        "target_name": "Quinine Sulfate",
+        "pair": "medication_medication",
+        "relation": "interaction_risk",
+        "inverse_relation": "interaction_risk",
+        "reason": "Quinine and lithium concurrently can increase the risk of neurotoxicity and QT prolongation."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "issue",
+        "target_id": "issue-0-Drowsiness",
+        "target_name": "Drowsiness",
+        "pair": "medication_issue",
+        "relation": "causes",
+        "inverse_relation": "causes",
+        "reason": "Lithium commonly causes side effects such as drowsiness."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "issue",
+        "target_id": "issue-1-Fine Tremor",
+        "target_name": "Fine Tremor",
+        "pair": "medication_issue",
+        "relation": "causes",
+        "inverse_relation": "causes",
+        "reason": "Fine tremor is a well-recognized adverse effect caused by lithium therapy."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "exam",
+        "target_id": "16",
+        "target_name": "Urea and Electrolytes",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "Renal function (urea, electrolytes, and eGFR) is routinely monitored to manage and evaluate the safety of lithium therapy."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "exam",
+        "target_id": "17",
+        "target_name": "Creatinine",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "Creatinine is monitored to assess renal function and safely manage lithium dosing."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "exam",
+        "target_id": "18",
+        "target_name": "eGFR",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "eGFR is monitored to assess renal function and safely manage lithium therapy."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "exam",
+        "target_id": "21",
+        "target_name": "TSH",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "TSH is regularly monitored to detect thyroid dysfunction caused by lithium."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "exam",
+        "target_id": "22",
+        "target_name": "bone profile",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "Bone profile is monitored to manage lithium therapy, particularly due to the risk of lithium-induced hypercalcemia/hyperparathyroidism."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "2",
+        "focus_name": "Lithium",
+        "target_kind": "exam",
+        "target_id": "23",
+        "target_name": "Lithium level",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "Lithium serum levels are directly measured to titrate and manage therapeutic dosing and prevent toxicity."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "3",
+        "focus_name": "Quinine Sulfate",
+        "target_kind": "medication",
+        "target_id": "1",
+        "target_name": "Atorvastatin",
+        "pair": "medication_medication",
+        "relation": "interaction_risk",
+        "inverse_relation": "interaction_risk",
+        "reason": "Quinine Sulfate and Atorvastatin can interact, potentially increasing the risk of myopathy or statin-related toxicity."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "4",
+        "focus_name": "Ramipril",
+        "target_kind": "diagnosis",
+        "target_id": "cond-6",
+        "target_name": "Hypertension",
+        "pair": "medication_diagnosis",
+        "relation": "treats",
+        "inverse_relation": "treats",
+        "reason": "Ramipril is an ACE inhibitor used to treat hypertension."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "4",
+        "focus_name": "Ramipril",
+        "target_kind": "medication",
+        "target_id": "2",
+        "target_name": "Lithium",
+        "pair": "medication_medication",
+        "relation": "interaction_risk",
+        "inverse_relation": "interaction_risk",
+        "reason": "ACE inhibitors like ramipril can reduce lithium excretion, significantly increasing the risk of lithium toxicity."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "4",
+        "focus_name": "Ramipril",
+        "target_kind": "exam",
+        "target_id": "15",
+        "target_name": "Average home blood pressure",
+        "pair": "medication_exam",
+        "relation": "treats",
+        "inverse_relation": "treats",
+        "reason": "Ramipril was increased two months prior to review to treat high average home blood pressure."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "4",
+        "focus_name": "Ramipril",
+        "target_kind": "exam",
+        "target_id": "16",
+        "target_name": "Urea and Electrolytes",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "Urea and Electrolytes are monitored to check for deterioration in renal function with ramipril treatment."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "4",
+        "focus_name": "Ramipril",
+        "target_kind": "exam",
+        "target_id": "17",
+        "target_name": "Creatinine",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "Ramipril. 10mg capsules: one capsule daily (increased two months prior to review)"
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "4",
+        "focus_name": "Ramipril",
+        "target_kind": "exam",
+        "target_id": "18",
+        "target_name": "eGFR",
+        "pair": "medication_exam",
+        "relation": "manages",
+        "inverse_relation": "manages",
+        "reason": "eGFR is monitored to assess renal function while on ramipril."
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "4",
+        "focus_name": "Ramipril",
+        "target_kind": "exam",
+        "target_id": "23",
+        "target_name": "Lithium level",
+        "pair": "medication_exam",
+        "relation": "worsens",
+        "inverse_relation": "worsens",
+        "reason": "Ramipril. 10mg capsules: one capsule daily (increased two months prior to review)"
+      },
+      {
+        "focus_kind": "medication",
+        "focus_id": "4",
+        "focus_name": "Ramipril",
+        "target_kind": "exam",
+        "target_id": "25",
+        "target_name": "Average home blood pressure reading",
+        "pair": "medication_exam",
+        "relation": "treats",
+        "inverse_relation": "treats",
+        "reason": "Ramipril is used to treat and lower average home blood pressure."
+      }
+    ],
+    "_prior_recommendations": []
+  },
+  "enriched_data": {
+    "global_patient_risks": {}
+  },
+  "focus_log": [
+    {
+      "prm": 1,
+      "focus_kind": "mar_line",
+      "focus_id": "1",
+      "focus_name": "Atorvastatin",
+      "mode": "",
+      "medication_ids": [
+        "1"
+      ]
+    },
+    {
+      "prm": 1,
+      "focus_kind": "mar_line",
+      "focus_id": "2",
+      "focus_name": "Lithium",
+      "mode": "",
+      "medication_ids": [
+        "2"
+      ]
+    },
+    {
+      "prm": 1,
+      "focus_kind": "mar_line",
+      "focus_id": "3",
+      "focus_name": "Quinine Sulfate",
+      "mode": "",
+      "medication_ids": [
+        "3"
+      ]
+    },
+    {
+      "prm": 1,
+      "focus_kind": "mar_line",
+      "focus_id": "4",
+      "focus_name": "Ramipril",
+      "mode": "",
+      "medication_ids": [
+        "4"
+      ]
+    },
+    {
+      "prm": 2,
+      "focus_kind": "diagnosis",
+      "focus_id": "cond-5",
+      "focus_name": "Nocturnal Leg Cramps",
+      "mode": "",
+      "medication_ids": []
+    },
+    {
+      "prm": 2,
+      "focus_kind": "diagnosis",
+      "focus_id": "cond-6",
+      "focus_name": "Hypertension",
+      "mode": "",
+      "medication_ids": [
+        "4"
+      ]
+    },
+    {
+      "prm": 2,
+      "focus_kind": "diagnosis",
+      "focus_id": "cond-6",
+      "focus_name": "Hypertension",
+      "mode": "",
+      "medication_ids": [
+        "4"
+      ]
+    },
+    {
+      "prm": 2,
+      "focus_kind": "diagnosis",
+      "focus_id": "cond-7",
+      "focus_name": "Primary Hypercholesterolaemia",
+      "mode": "",
+      "medication_ids": [
+        "1"
+      ]
+    },
+    {
+      "prm": 2,
+      "focus_kind": "diagnosis",
+      "focus_id": "cond-8",
+      "focus_name": "Bipolar Type 1 Disorder",
+      "mode": "",
+      "medication_ids": [
+        "2"
+      ]
+    },
+    {
+      "prm": 3,
+      "focus_kind": "mar_line",
+      "focus_id": "1",
+      "focus_name": "Atorvastatin",
+      "mode": "",
+      "medication_ids": [
+        "1"
+      ]
+    },
+    {
+      "prm": 3,
+      "focus_kind": "mar_line",
+      "focus_id": "2",
+      "focus_name": "Lithium",
+      "mode": "",
+      "medication_ids": [
+        "2"
+      ]
+    },
+    {
+      "prm": 3,
+      "focus_kind": "mar_line",
+      "focus_id": "4",
+      "focus_name": "Ramipril",
+      "mode": "",
+      "medication_ids": [
+        "4"
+      ]
+    },
+    {
+      "prm": 4,
+      "focus_kind": "mar_line",
+      "focus_id": "1",
+      "focus_name": "Atorvastatin",
+      "mode": "",
+      "medication_ids": [
+        "1"
+      ]
+    },
+    {
+      "prm": 4,
+      "focus_kind": "mar_line",
+      "focus_id": "2",
+      "focus_name": "Lithium",
+      "mode": "",
+      "medication_ids": [
+        "2"
+      ]
+    },
+    {
+      "prm": 4,
+      "focus_kind": "mar_line",
+      "focus_id": "4",
+      "focus_name": "Ramipril",
+      "mode": "",
+      "medication_ids": [
+        "4"
+      ]
+    },
+    {
+      "prm": 5,
+      "focus_kind": "mar_line",
+      "focus_id": "1",
+      "focus_name": "Atorvastatin",
+      "mode": "",
+      "medication_ids": [
+        "1"
+      ]
+    },
+    {
+      "prm": 5,
+      "focus_kind": "mar_line",
+      "focus_id": "2",
+      "focus_name": "Lithium",
+      "mode": "",
+      "medication_ids": [
+        "2"
+      ]
+    },
+    {
+      "prm": 5,
+      "focus_kind": "mar_line",
+      "focus_id": "4",
+      "focus_name": "Ramipril",
+      "mode": "",
+      "medication_ids": [
+        "4"
+      ]
+    },
+    {
+      "prm": 6,
+      "focus_kind": "mar_line",
+      "focus_id": "2",
+      "focus_name": "Lithium",
+      "mode": "",
+      "medication_ids": [
+        "2"
+      ]
+    }
+  ],
+  "telemetry": {
+    "orchestrator": "chart_link",
+    "schedule": "prm",
+    "detection": "per_prm",
+    "elapsed_seconds": 184.824,
+    "recommendation_count": 5,
+    "step_wall_seconds": {
+      "prm_1": 20.295,
+      "prm_2": 47.721,
+      "prm_3": 11.719,
+      "prm_4": 8.576,
+      "prm_5": 88.256,
+      "prm_6": 8.255,
+      "prm_7": 0.0
+    }
+  },
+  "combined_detections": []
+}

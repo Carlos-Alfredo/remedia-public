@@ -1,0 +1,110 @@
+{
+  "case_id": "scot_09_04",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 73,
+      "chart_preparation": 0,
+      "chart_link": 139,
+      "prm_analysis": 162
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 51.578,
+    "chart_preparation": 0.002,
+    "chart_link": 400.469,
+    "prm_analysis": 1177.709,
+    "prm_1": 541.373,
+    "prm_2": 295.6,
+    "prm_3": 140.339,
+    "prm_4": 32.793,
+    "prm_5": 156.674,
+    "prm_6": 10.92,
+    "prm_7": 0.0
+  },
+  "wall_seconds_total": 1629.776,
+  "links": 71,
+  "recommendation_count": 10,
+  "actions": {
+    "discontinue": 5,
+    "add": 2,
+    "replace": 3
+  },
+  "recommendations": [
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "Swollen Legs"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "Nausea"
+    },
+    {
+      "prm": 1,
+      "action": "discontinue",
+      "medication": null,
+      "health_problem": "No health problem indication"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Bilateral Cellulitis"
+    },
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Itchy Legs; Itchy Rash"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Mixed Alzheimer’S Disease / Vascular Dementia"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Type 2 Diabetes Mellitus"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 374,
+    "input_tokens": 598070,
+    "output_tokens": 40658,
+    "thoughts_tokens": 37558,
+    "total_tokens_reported": 676286,
+    "rows_missing_usage": 1
+  },
+  "estimated_usd": 0.7063,
+  "completed_at_iso": "2026-10-26T13:31:40.971723+00:00",
+  "run": 5
+}

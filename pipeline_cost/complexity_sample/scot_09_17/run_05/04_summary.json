@@ -1,0 +1,80 @@
+{
+  "case_id": "scot_09_17",
+  "success": true,
+  "pipeline": "extract_chart -> chart_ready -> chart_link -> analyze_chart_links",
+  "llm_client": {
+    "type": "AsyncSemaphoreVertexClient",
+    "shared_pool": true,
+    "tasks_produced_by_phase": {
+      "document_extraction": 47,
+      "chart_preparation": 0,
+      "chart_link": 67,
+      "prm_analysis": 105
+    },
+    "outside_pool_clients": 0
+  },
+  "wall_seconds": {
+    "document_extraction": 67.468,
+    "chart_preparation": 0.001,
+    "chart_link": 289.054,
+    "prm_analysis": 500.734,
+    "prm_1": 17.341,
+    "prm_2": 132.996,
+    "prm_3": 88.445,
+    "prm_4": 30.956,
+    "prm_5": 164.338,
+    "prm_6": 66.652,
+    "prm_7": 0.0
+  },
+  "wall_seconds_total": 857.267,
+  "links": 28,
+  "recommendation_count": 5,
+  "actions": {
+    "add": 1,
+    "replace": 3,
+    "reduce_dosage": 1
+  },
+  "recommendations": [
+    {
+      "prm": 2,
+      "action": "add",
+      "medication": null,
+      "health_problem": "Hypertension"
+    },
+    {
+      "prm": 3,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Hypertension"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Primary Hypercholesterolaemia"
+    },
+    {
+      "prm": 5,
+      "action": "replace",
+      "medication": null,
+      "health_problem": "Nocturnal Leg Cramps"
+    },
+    {
+      "prm": 6,
+      "action": "reduce_dosage",
+      "medication": null,
+      "health_problem": "Bipolar Type 1 Disorder"
+    }
+  ],
+  "token_usage": {
+    "llm_requests": 219,
+    "input_tokens": 267663,
+    "output_tokens": 17860,
+    "thoughts_tokens": 16973,
+    "total_tokens_reported": 302496,
+    "rows_missing_usage": 0
+  },
+  "estimated_usd": 0.3131,
+  "completed_at_iso": "2026-10-26T11:07:40.846050+00:00",
+  "run": 5
+}
