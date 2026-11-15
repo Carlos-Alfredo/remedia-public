@@ -1,4 +1,4 @@
-case_id,n_runs,wall_mean_s,wall_sd_s,recs_mean,recs_sd,calls_mean,calls_sd
-scot_09_17,5,901.1,320.6,4.6,0.5,209.2,8.8
-scot_09_04,5,1728.0,160.1,10.4,1.1,382.6,21.0
-scot_09_08,5,3461.8,823.5,13.6,1.5,716.4,99.7
+case_id,n_runs,wall_mean_s,wall_sd_s,recs_mean,recs_sd,calls_mean,calls_sd,usd_mean,usd_sd
+scot_09_17,5,901.1,320.6,4.6,0.5,209.2,8.8,0.309,0.008
+scot_09_04,5,1728.0,160.1,10.4,1.1,382.6,21.0,0.728,0.029
+scot_09_08,5,3461.8,823.5,13.6,1.5,716.4,99.7,1.207,0.151

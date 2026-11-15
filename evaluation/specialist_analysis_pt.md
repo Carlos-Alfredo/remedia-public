@@ -1,3 +1,5 @@
+> **Path note (English archive layout):** graded Excel files are now `../specialist_workbooks/specialist_grades_remedia.xlsx` and `specialist_grades_baseline.xlsx`. The per-case Portuguese report is `case_report_pt.md` (formerly `relatorio_por_caso.md`). Internal Portuguese prose below may still use the old filenames.
+
 # Avaliação do especialista: RemedIA e baseline
 
 O especialista devolveu as duas fichas dos 26 casos de polifarmácia escocesa (`scot_09_01`–`scot_09_26`). RemedIA é o pipeline em etapas da corrida `scottish_polypharmacy_full_20261014`. O baseline é o prompt por medicamento de Ong et al., na ficha `avaliacao_especialista_baseline.xlsx`. O texto de cada linha é o mesmo da ficha em branco; o que entrou aqui são as notas, as observações e as lacunas preenchidas.

@@ -1,0 +1,304 @@
+{
+  "conditions": "Each arm ran alone, one case after another, with no other process calling the API. Wall time is the case's call, including any retry after a timed-out attempt. Tokens are those the API reported for the answered attempt.",
+  "arm_name": "Ong-inspired per-medication baseline",
+  "note": "Single-prompt per-medication adaptation used in the manuscript; not a reproduction of Ong et al.'s full RAG CDSS.",
+  "tier": "medium",
+  "model": "gemini-3.8-flash",
+  "thinking": "low",
+  "started_at": "2026-10-28T17:08:56.367198-03:00",
+  "finished_at": "2026-10-28T17:31:32.855698-03:00",
+  "n_ok": 26,
+  "n_error": 0,
+  "n_skipped": 1,
+  "totals": {
+    "suite_wall_seconds": 1356.489,
+    "n_calls": 26,
+    "input_tokens": 27077,
+    "thoughts_tokens": 0,
+    "output_tokens": 30986,
+    "total_tokens": 58063,
+    "cost_usd": 0.136503
+  },
+  "per_case": {
+    "wall_seconds": {
+      "mean": 52.172,
+      "median": 11.59,
+      "sd": 126.444,
+      "min": 8.059,
+      "max": 613.126
+    },
+    "input_tokens": {
+      "mean": 1041.423,
+      "median": 1063.0,
+      "sd": 210.067,
+      "min": 651.0,
+      "max": 1404.0
+    },
+    "thoughts_tokens": {
+      "mean": 0.0,
+      "median": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "output_tokens": {
+      "mean": 1191.769,
+      "median": 1145.0,
+      "sd": 334.033,
+      "min": 638.0,
+      "max": 2024.0
+    },
+    "cost_usd": {
+      "mean": 0.005,
+      "median": 0.005,
+      "sd": 0.001,
+      "min": 0.003,
+      "max": 0.008
+    }
+  },
+  "calls_with_more_than_one_attempt": [
+    {
+      "case_id": "scot_09_01",
+      "attempt": 2,
+      "elapsed_s": 613.121
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "scot_09_01",
+      "wall_seconds": 613.126,
+      "input_tokens": 807,
+      "thoughts_tokens": 0,
+      "output_tokens": 1240,
+      "cost_usd": 0.005255,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_02",
+      "wall_seconds": 26.451,
+      "input_tokens": 1183,
+      "thoughts_tokens": 0,
+      "output_tokens": 1702,
+      "cost_usd": 0.00727,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_03",
+      "wall_seconds": 11.638,
+      "input_tokens": 1116,
+      "thoughts_tokens": 0,
+      "output_tokens": 1171,
+      "cost_usd": 0.005228,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_04",
+      "wall_seconds": 18.862,
+      "input_tokens": 1376,
+      "thoughts_tokens": 0,
+      "output_tokens": 1547,
+      "cost_usd": 0.006833,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_05",
+      "wall_seconds": 264.532,
+      "input_tokens": 1180,
+      "thoughts_tokens": 0,
+      "output_tokens": 1117,
+      "cost_usd": 0.005074,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_06",
+      "wall_seconds": 51.241,
+      "input_tokens": 1114,
+      "thoughts_tokens": 0,
+      "output_tokens": 2024,
+      "cost_usd": 0.008426,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_07",
+      "wall_seconds": 11.325,
+      "input_tokens": 1053,
+      "thoughts_tokens": 0,
+      "output_tokens": 1190,
+      "cost_usd": 0.005252,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_08",
+      "wall_seconds": 13.453,
+      "input_tokens": 1404,
+      "thoughts_tokens": 0,
+      "output_tokens": 1162,
+      "cost_usd": 0.005411,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_09",
+      "wall_seconds": 9.359,
+      "input_tokens": 770,
+      "thoughts_tokens": 0,
+      "output_tokens": 880,
+      "cost_usd": 0.003877,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_10",
+      "wall_seconds": 23.451,
+      "input_tokens": 732,
+      "thoughts_tokens": 0,
+      "output_tokens": 891,
+      "cost_usd": 0.00389,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_11",
+      "wall_seconds": 25.117,
+      "input_tokens": 1314,
+      "thoughts_tokens": 0,
+      "output_tokens": 1542,
+      "cost_usd": 0.006768,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_12",
+      "wall_seconds": 14.423,
+      "input_tokens": 1223,
+      "thoughts_tokens": 0,
+      "output_tokens": 1160,
+      "cost_usd": 0.005267,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_13",
+      "wall_seconds": 9.213,
+      "input_tokens": 819,
+      "thoughts_tokens": 0,
+      "output_tokens": 927,
+      "cost_usd": 0.00409,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_14",
+      "wall_seconds": 9.202,
+      "input_tokens": 1044,
+      "thoughts_tokens": 0,
+      "output_tokens": 856,
+      "cost_usd": 0.003993,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_15",
+      "wall_seconds": 9.494,
+      "input_tokens": 651,
+      "thoughts_tokens": 0,
+      "output_tokens": 638,
+      "cost_usd": 0.002881,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_16",
+      "wall_seconds": 131.678,
+      "input_tokens": 760,
+      "thoughts_tokens": 0,
+      "output_tokens": 959,
+      "cost_usd": 0.004166,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_17",
+      "wall_seconds": 8.059,
+      "input_tokens": 909,
+      "thoughts_tokens": 0,
+      "output_tokens": 810,
+      "cost_usd": 0.003719,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_18",
+      "wall_seconds": 9.859,
+      "input_tokens": 1073,
+      "thoughts_tokens": 0,
+      "output_tokens": 988,
+      "cost_usd": 0.00451,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_19",
+      "wall_seconds": 11.541,
+      "input_tokens": 881,
+      "thoughts_tokens": 0,
+      "output_tokens": 1130,
+      "cost_usd": 0.004898,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_20",
+      "wall_seconds": 11.164,
+      "input_tokens": 1354,
+      "thoughts_tokens": 0,
+      "output_tokens": 1031,
+      "cost_usd": 0.004882,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_21",
+      "wall_seconds": 10.637,
+      "input_tokens": 1044,
+      "thoughts_tokens": 0,
+      "output_tokens": 1442,
+      "cost_usd": 0.00619,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_22",
+      "wall_seconds": 10.074,
+      "input_tokens": 1135,
+      "thoughts_tokens": 0,
+      "output_tokens": 1120,
+      "cost_usd": 0.005051,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_23",
+      "wall_seconds": 10.991,
+      "input_tokens": 1135,
+      "thoughts_tokens": 0,
+      "output_tokens": 1195,
+      "cost_usd": 0.005333,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_24",
+      "wall_seconds": 16.578,
+      "input_tokens": 1105,
+      "thoughts_tokens": 0,
+      "output_tokens": 1822,
+      "cost_usd": 0.007661,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_25",
+      "wall_seconds": 16.222,
+      "input_tokens": 1036,
+      "thoughts_tokens": 0,
+      "output_tokens": 1506,
+      "cost_usd": 0.006424,
+      "attempts": 1
+    },
+    {
+      "case_id": "scot_09_26",
+      "wall_seconds": 8.772,
+      "input_tokens": 859,
+      "thoughts_tokens": 0,
+      "output_tokens": 936,
+      "cost_usd": 0.004154,
+      "attempts": 1
+    }
+  ],
+  "historical_run_folder": "evaluation/scottish_polypharmacy_ong2025_per_medication",
+  "published_pregrade_sheet": "model_outputs/baseline_ong_inspired_per_medication/pregrade_baseline.xlsx"
+}
