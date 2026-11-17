@@ -23,6 +23,7 @@ Every `\cite{remediapublic}` / Data Availability pointer in the manuscript maps 
 | Linking + PRM analysis dominate calls | [`pipeline_cost/complexity_sample/call_phase_totals.csv`](pipeline_cost/complexity_sample/call_phase_totals.csv) |
 | Verb locks; 45/68 staged FPs in replace+dose; per-case rates | [`methods/catalog/`](methods/catalog/) · [`evaluation/tables/false_positives_by_action.csv`](evaluation/tables/false_positives_by_action.csv) · [`evaluation/tables/false_positives_changed_rows.csv`](evaluation/tables/false_positives_changed_rows.csv) · [`evaluation/tables/per_case_rates.csv`](evaluation/tables/per_case_rates.csv) · [`evaluation/tables/remedia_false_positives_by_flag.csv`](evaluation/tables/remedia_false_positives_by_flag.csv) |
 | Specialist workbooks (graded Excel) | [`specialist_workbooks/specialist_grades_remedia.xlsx`](specialist_workbooks/specialist_grades_remedia.xlsx) · [`specialist_workbooks/specialist_grades_baseline.xlsx`](specialist_workbooks/specialist_grades_baseline.xlsx) |
+| Chart handoffs: later recommendations that use an earlier acceptance | [`evaluation/handoffs/`](evaluation/handoffs/) — counts in [`handoff_summary.csv`](evaluation/handoffs/handoff_summary.csv) |
 | Row-level grades used for Results tables | [`evaluation/derived/`](evaluation/derived/) · [`evaluation/tables/`](evaluation/tables/) |
 | Teaching vignettes (`scot_09_01`–`26`) | [`vignettes/clinical_notes/`](vignettes/clinical_notes/) |
 | Manuscript figure PDFs | [`figures/`](figures/) |
@@ -47,6 +48,7 @@ Supporting (not separately cited, but used to rebuild tables):
 ```
 specialist_workbooks/     Graded Excel returned by the specialist
 evaluation/derived/       One CSV row per recommendation (+ gaps)
+evaluation/handoffs/      Later recommendations that use an earlier acceptance
 evaluation/tables/        Aggregates backing Results
 evaluation/charts_data/   Plot-ready subset of tables/
 vignettes/clinical_notes/ Input notes scot_09_01–26
