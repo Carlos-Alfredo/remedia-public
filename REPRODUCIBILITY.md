@@ -11,7 +11,7 @@ Locked evaluation values cited in the manuscript.
 | Cases | `scot_09_01`–`scot_09_26` |
 | Complexity sample | `pipeline_cost/complexity_sample/` (5 runs × `scot_09_17` / `scot_09_04` / `scot_09_08`) |
 | Baseline suite totals | `pipeline_cost/baseline_time_and_cost.json` (1356.489 s; USD 0.136503) |
-| Flag catalog | `methods/catalog/flag_action_catalog.csv` (49 flags) |
+| Flag catalog | `methods/catalog/flag_action_catalog.csv` (44 flags) |
 
 ## Numeric checks against the manuscript
 

@@ -29,8 +29,8 @@ CANDIDATES = HERE / "handoff_candidates.csv"
 DECISIONS = HERE / "handoff_decisions.csv"
 SUMMARY = HERE / "handoff_summary.csv"
 
-INTRODUCING = {"add", "replace", "combine"}
-STOPPING = {"discontinue", "replace", "combine"}
+INTRODUCING = {"add", "replace"}
+STOPPING = {"discontinue", "replace"}
 STATE_CUE = re.compile(
     r"\b(already|has been|have been|was|were|now|newly|previously|recently|this cycle|"
     r"just|removed|discontinued|stopped|replaced|added|started|switched)\b",

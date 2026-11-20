@@ -1,347 +1,268 @@
 {
-  "description": "Code-owned DTP flag to primary/allowed action verbs for the seven Cipolle passes. Flags whose primary action is none skip recommendation generation. set_dosage is chart-completion (PRM 8), outside the rated seven-pass schedule.",
+  "description": "Code-owned DTP flag to action verb for the seven Cipolle passes. Each flag authorizes one verb. Flags whose action is none emit no recommendation; defer_to_prm names the later pass that reviews the same line.",
   "rows": [
     {
       "prm": 1,
       "dtp_flag": "duplicate_same_ingredient_orders",
       "primary_action": "discontinue",
-      "allowed_actions": "discontinue",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 1,
-      "dtp_flag": "multi_agent_regimen_simplification",
-      "primary_action": "combine",
-      "allowed_actions": "combine",
       "defer_to_prm": ""
     },
     {
       "prm": 1,
       "dtp_flag": "no_valid_indication",
       "primary_action": "discontinue",
-      "allowed_actions": "discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 1,
       "dtp_flag": "non_drug_therapy_more_appropriate",
       "primary_action": "discontinue",
-      "allowed_actions": "discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 1,
       "dtp_flag": "redundant_distinct_agent",
       "primary_action": "discontinue",
-      "allowed_actions": "discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 1,
       "dtp_flag": "substance_abuse_causing_problem",
       "primary_action": "discontinue",
-      "allowed_actions": "discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 1,
       "dtp_flag": "temporary_safety_discontinue",
       "primary_action": "discontinue",
-      "allowed_actions": "discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 1,
       "dtp_flag": "treating_avoidable_adr_from_other_med",
       "primary_action": "discontinue",
-      "allowed_actions": "discontinue|replace",
       "defer_to_prm": ""
     },
     {
       "prm": 2,
       "dtp_flag": "additional_therapy_synergistic",
       "primary_action": "add",
-      "allowed_actions": "add",
       "defer_to_prm": ""
     },
     {
       "prm": 2,
       "dtp_flag": "condition_requires_initiation",
       "primary_action": "add",
-      "allowed_actions": "add",
       "defer_to_prm": ""
     },
     {
       "prm": 2,
       "dtp_flag": "escalation_belongs_on_existing_agent",
       "primary_action": "none",
-      "allowed_actions": "none",
       "defer_to_prm": ""
     },
     {
       "prm": 2,
       "dtp_flag": "needs_adjunct_escalation_add",
       "primary_action": "add",
-      "allowed_actions": "add",
       "defer_to_prm": ""
     },
     {
       "prm": 2,
       "dtp_flag": "needs_distinct_role_adjunct_add",
       "primary_action": "add",
-      "allowed_actions": "add",
       "defer_to_prm": ""
     },
     {
       "prm": 2,
       "dtp_flag": "no_safe_additional_therapy",
       "primary_action": "none",
-      "allowed_actions": "none",
       "defer_to_prm": ""
     },
     {
       "prm": 2,
       "dtp_flag": "preventive_therapy_required",
       "primary_action": "add",
-      "allowed_actions": "add",
       "defer_to_prm": ""
     },
     {
       "prm": 2,
       "dtp_flag": "problem_due_to_adverse_reaction",
       "primary_action": "none",
-      "allowed_actions": "none",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 2,
-      "dtp_flag": "substitution_after_failure",
-      "primary_action": "add",
-      "allowed_actions": "add",
       "defer_to_prm": ""
     },
     {
       "prm": 3,
       "dtp_flag": "condition_refractory",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 3,
       "dtp_flag": "dose_or_exposure_inadequate",
       "primary_action": "none",
-      "allowed_actions": "none",
       "defer_to_prm": 4
     },
     {
       "prm": 3,
       "dtp_flag": "inappropriate_dosage_form",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 3,
       "dtp_flag": "not_effective_for_problem",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 3,
       "dtp_flag": "not_most_effective_for_indication",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 4,
       "dtp_flag": "dose_too_low",
       "primary_action": "increase_dosage",
-      "allowed_actions": "increase_dosage",
       "defer_to_prm": ""
     },
     {
       "prm": 4,
       "dtp_flag": "duration_too_short",
       "primary_action": "increase_dosage",
-      "allowed_actions": "increase_dosage",
       "defer_to_prm": ""
     },
     {
       "prm": 4,
       "dtp_flag": "interaction_reduces_active_drug",
       "primary_action": "increase_dosage",
-      "allowed_actions": "increase_dosage",
       "defer_to_prm": ""
     },
     {
       "prm": 4,
       "dtp_flag": "interval_too_infrequent",
       "primary_action": "increase_dosage",
-      "allowed_actions": "increase_dosage",
       "defer_to_prm": ""
     },
     {
       "prm": 5,
       "dtp_flag": "allergic_reaction",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 5,
       "dtp_flag": "contraindicated_risk_factors",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 5,
       "dtp_flag": "dose_related_toxicity_belongs_in_prm6",
       "primary_action": "none",
-      "allowed_actions": "none",
       "defer_to_prm": 6
     },
     {
       "prm": 5,
       "dtp_flag": "interaction_undesirable_reaction",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 5,
       "dtp_flag": "non_dose_related_undesirable_reaction",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 5,
       "dtp_flag": "regimen_administered_too_rapidly",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 5,
       "dtp_flag": "safer_drug_required",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 5,
       "dtp_flag": "unsafe_multi_agent_association",
       "primary_action": "replace",
-      "allowed_actions": "replace|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 6,
       "dtp_flag": "dose_administered_too_rapidly",
       "primary_action": "reduce_dosage",
-      "allowed_actions": "reduce_dosage",
       "defer_to_prm": ""
     },
     {
       "prm": 6,
       "dtp_flag": "dose_too_high",
       "primary_action": "reduce_dosage",
-      "allowed_actions": "reduce_dosage|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 6,
       "dtp_flag": "duration_too_long",
       "primary_action": "reduce_dosage",
-      "allowed_actions": "reduce_dosage|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 6,
       "dtp_flag": "frequency_too_short",
       "primary_action": "reduce_dosage",
-      "allowed_actions": "reduce_dosage|discontinue",
       "defer_to_prm": ""
     },
     {
       "prm": 6,
       "dtp_flag": "interaction_toxic_reaction",
       "primary_action": "reduce_dosage",
-      "allowed_actions": "reduce_dosage|discontinue",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 7,
-      "dtp_flag": "cannot_swallow_or_self_administer",
-      "primary_action": "replace",
-      "allowed_actions": "replace",
       "defer_to_prm": ""
     },
     {
       "prm": 7,
       "dtp_flag": "drug_not_available",
       "primary_action": "replace",
-      "allowed_actions": "replace",
       "defer_to_prm": ""
     },
     {
       "prm": 7,
       "dtp_flag": "patient_does_not_understand",
       "primary_action": "optimize",
-      "allowed_actions": "optimize",
       "defer_to_prm": ""
     },
     {
       "prm": 7,
       "dtp_flag": "patient_forgets",
       "primary_action": "optimize",
-      "allowed_actions": "optimize",
       "defer_to_prm": ""
     },
     {
       "prm": 7,
       "dtp_flag": "patient_prefers_not_to_take_optimize",
       "primary_action": "optimize",
-      "allowed_actions": "optimize",
       "defer_to_prm": ""
     },
     {
       "prm": 7,
       "dtp_flag": "patient_prefers_not_to_take_replace",
       "primary_action": "replace",
-      "allowed_actions": "replace",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 7,
-      "dtp_flag": "regimen_complexity_combine",
-      "primary_action": "optimize",
-      "allowed_actions": "optimize",
       "defer_to_prm": ""
     },
     {
       "prm": 7,
       "dtp_flag": "too_expensive_optimize",
       "primary_action": "optimize",
-      "allowed_actions": "optimize",
       "defer_to_prm": ""
     },
     {
       "prm": 7,
       "dtp_flag": "too_expensive_replace",
       "primary_action": "replace",
-      "allowed_actions": "replace",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 8,
-      "dtp_flag": "missing_structured_dose_or_frequency",
-      "primary_action": "set_dosage",
-      "allowed_actions": "set_dosage",
       "defer_to_prm": ""
     }
   ]
