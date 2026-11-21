@@ -1,0 +1,145 @@
+% Fig. 7 — Five cases on one page. Rebalanced for density: spend height on
+% readable type, keep topic/header separation modest (0.5× / 0.75× leading).
+\documentclass[border=0.8mm]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{xcolor}
+
+\definecolor{ojblue}{HTML}{0072B2}
+\definecolor{ojbluedark}{HTML}{005080}
+\definecolor{ojbluetint}{HTML}{EBF4FA}
+\definecolor{ink}{HTML}{0F172A}
+\definecolor{cardbg}{HTML}{FFFFFF}
+
+\newlength{\epfull}\setlength{\epfull}{178mm}
+% Article-proportioned type (size/lead ≈ 10/12), sized so five rows fit one page
+\newcommand{\epfontsize}{5.25}
+\newcommand{\eplead}{6.3pt}
+\newlength{\epbaselineskip}\setlength{\epbaselineskip}{\eplead}
+
+\newcommand{\dtplabel}[1]{{\bfseries\fontsize{\epfontsize}{\eplead}\selectfont\color{ojbluedark}#1:}\ }
+\newcommand{\conttext}[2]{%
+  \parbox[t]{#1}{%
+    \fontsize{\epfontsize}{\eplead}\selectfont\color{ink}%
+    \raggedright
+    \setlength{\baselineskip}{\epbaselineskip}%
+    \setlength{\lineskip}{0.4pt}%
+    \setlength{\lineskiplimit}{0.4pt}%
+    \setlength{\parskip}{0pt}%
+    \setlength{\parindent}{0pt}%
+    \noindent #2}%
+}
+% Efficient gaps: topics 0.5× leading; headers/rows 0.75× leading
+\newcommand{\fieldbreak}{\par\vskip 0.5\epbaselineskip\relax\noindent\ignorespaces}
+\newcommand{\structgap}{\par\vskip 0.75\epbaselineskip\relax}
+\newcommand{\rowgap}{\par\vskip 0.75\epbaselineskip\relax}
+
+\newcommand{\caserow}[4]{%
+  \par\noindent
+  \begingroup
+  \setlength{\fboxsep}{0.45mm}%
+  \setlength{\fboxrule}{0.35pt}%
+  \fcolorbox{ink}{cardbg}{%
+    \begin{minipage}{\dimexpr\epfull-2\fboxsep-2\fboxrule\relax}
+      {\bfseries\fontsize{\epfontsize}{\eplead}\selectfont\color{ink}#1}%
+      \structgap
+      \setlength{\fboxsep}{0.40mm}%
+      \setlength{\fboxrule}{0.30pt}%
+      % Staged: column headers share one band (no extra Staged→column void)
+      \fcolorbox{ojblue}{ojbluetint}{%
+        \begin{minipage}[t]{118.0mm}
+          \begin{minipage}[t]{56.0mm}
+            {\bfseries\fontsize{\epfontsize}{\eplead}\selectfont\color{ojbluedark}Staged --- DTP}%
+            \structgap
+            \conttext{56.0mm}{#2}%
+          \end{minipage}\hfill
+          \begin{minipage}[t]{58.0mm}
+            {\bfseries\fontsize{\epfontsize}{\eplead}\selectfont\color{ojbluedark}Staged --- Recommendation}%
+            \structgap
+            \conttext{58.0mm}{#3}%
+          \end{minipage}%
+        \end{minipage}}%
+      \hspace*{3.5mm}%
+      \fcolorbox{ojblue}{ojbluetint}{%
+        \begin{minipage}[t]{42.0mm}
+          {\bfseries\fontsize{\epfontsize}{\eplead}\selectfont\color{ojbluedark}Baseline}%
+          \structgap
+          \conttext{42.0mm}{#4}%
+        \end{minipage}}%
+    \end{minipage}}%
+  \endgroup
+  \par
+}
+
+\begin{document}
+\begin{minipage}{\epfull}
+\caserow{1.~Discontinue cetirizine (case 1)}{%
+\dtplabel{PRM}1 --- unnecessary drug therapy\fieldbreak
+\dtplabel{Cause}No valid indication\fieldbreak
+\dtplabel{Target}Cetirizine 10mg daily\fieldbreak
+\dtplabel{Drug therapy}Cetirizine --- 10mg tablets: one tablet daily\fieldbreak
+\dtplabel{Risk}Lack of documented allergic or pruritic indication; additive CNS depression, cognitive impairment (MMSE 14), sedation, and fall risk in a severely frail patient\fieldbreak
+\dtplabel{Association}Prescribed without documented indication or symptom (e.g., allergic rhinitis, urticaria, pruritus), adding sedative and anticholinergic burden that worsens dementia and fall risk.%
+}{%
+Cetirizine 10mg daily has no documented clinical indication or active allergic condition. In this severely frail resident with dementia (MMSE 14) and frequent falls, cetirizine adds unnecessary anticholinergic and sedative burdens, interacting with amisulpride, tramadol, and trazodone to worsen CNS depression and fall risk. Discontinuing cetirizine eliminates unneeded medication and reduces sedation without compromising care.%
+}{%
+Discontinue unless there is an active, documented allergic indication, to reduce anticholinergic and sedative burden.%
+}
+
+\rowgap
+\caserow{2.~Reduce edoxaban (case 7)}{%
+\dtplabel{PRM}6 --- dosage too high\fieldbreak
+\dtplabel{Cause}Dose too high\fieldbreak
+\dtplabel{Target}Edoxaban dosing for stroke prophylaxis in atrial fibrillation / secondary prevention\fieldbreak
+\dtplabel{Drug therapy}Edoxaban --- 60mg tablets: one tablet daily\fieldbreak
+\dtplabel{Risk}Excessive exposure with major bleeding risk from unadjusted dosing in renal impairment and low body weight\fieldbreak
+\dtplabel{Association}Reduce 60\,mg to 30\,mg daily if CrCl 15--50\,mL/min and/or weight $\leq$\,60\,kg; this patient has CrCl 27\,mL/min and weighs 52\,kg.%
+}{%
+Edoxaban 60\,mg once daily is excessively dosed given renal impairment (CrCl 27\,mL/min) and low body weight (52\,kg). Criteria require reduction to 30\,mg once daily for CrCl 15--50\,mL/min or weight $\leq$\,60\,kg to limit accumulation and bleeding risk while preserving stroke prophylaxis. Concomitant clopidogrel further raises bleeding hazard.%
+}{%
+Reduce dose to 30mg orally once daily due to renal impairment (CrCl 27mL/min) and low body weight (52kg).%
+}
+
+\rowgap
+\caserow{3.~Increase macrogol (case 24)}{%
+\dtplabel{PRM}4 --- dosage too low\fieldbreak
+\dtplabel{Cause}Dose too low\fieldbreak
+\dtplabel{Target}Macrogol 3350 dosing for constipation prophylaxis and management\fieldbreak
+\dtplabel{Drug therapy}Macrogol 3350 --- sachets: one sachet daily\fieldbreak
+\dtplabel{Risk}Persistent active constipation despite regular opioid therapy and concurrent constipating medications\fieldbreak
+\dtplabel{Association}Still symptomatic on Morphine MR/IR, amitriptyline, and solifenacin; one sachet daily is inadequate for the constipating burden.%
+}{%
+Macrogol 3350 at one sachet (13.125\,g) daily is insufficient with active constipation on regular and as-needed morphine, amitriptyline, and solifenacin. Increasing to 26.25\,g (two sachets) daily adds osmotic laxative effect alongside charted senna.%
+}{%
+Increase the dose to one sachet twice daily to address ongoing constipation.%
+}
+
+\rowgap
+\caserow{4.~Replace atenolol (case 6)}{%
+\dtplabel{PRM}3 --- ineffective drug\fieldbreak
+\dtplabel{Cause}Not the most effective for the indication\fieldbreak
+\dtplabel{Target}Atenolol for coronary heart disease, atrial fibrillation, and hypertension\fieldbreak
+\dtplabel{Drug therapy}Atenolol --- 50mg tablets: one tablet daily\fieldbreak
+\dtplabel{Risk}Suboptimal outcome evidence for atenolol; uncontrolled hypertension (BP 150/85\,mmHg) and palpitations\fieldbreak
+\dtplabel{Association}Inferior to bisoprolol, metoprolol succinate, or carvedilol for long-term CV risk reduction, post-MI mortality benefit, and AF rate control.%
+}{%
+Atenolol is inferior to evidence-based beta-1 selective agents for secondary prevention post-NSTEMI, AF rate control, and hypertension, and may exacerbate COPD. Switching to bisoprolol 2.5\,mg once daily improves cardioprotection and rate control with higher beta-1 selectivity, safer in COPD, covering CHD, AF, hypertension, and prophylaxis while addressing palpitations.%
+}{%
+Switch atenolol to bisoprolol 2.5mg orally once daily (titrating according to heart rate and blood pressure) for optimized rate control in AF and post-MI management.%
+}
+
+\rowgap
+\caserow{5.~Add apixaban (case 6)}{%
+\dtplabel{PRM}2 --- additional drug therapy\fieldbreak
+\dtplabel{Cause}Needs a distinct-role adjunct\fieldbreak
+\dtplabel{Target}Atrial Fibrillation\fieldbreak
+\dtplabel{Drug therapy}Apixaban --- 5 mg twice daily\fieldbreak
+\dtplabel{Risk}Palpitations and breathlessness with AF thromboembolic risk; CHA\textsubscript{2}DS\textsubscript{2}-VASc factors sum to 4, not 5 (female sex, hypertension, diabetes, vascular disease; age 58 scores 0)\fieldbreak
+\dtplabel{Association}Atenolol covers rate control; oral anticoagulation is a separate guideline-indicated stroke-prevention role.%
+}{%
+The patient has atrial fibrillation. Female sex, hypertension, diabetes, and vascular disease score 4 on CHA\textsubscript{2}DS\textsubscript{2}-VASc; age 58 and reported eGFR do not add points. Atenolol is for rate control; anticoagulation is a separate stroke-prevention role. Apixaban 5\,mg twice daily is proposed alongside rate control. The exported row stated a score of 5.%
+}{%
+Initiate apixaban 5\,mg orally twice daily for stroke prevention in atrial fibrillation (exported text stated CHA\textsubscript{2}DS\textsubscript{2}-VASc = 5).%
+}
+\end{minipage}
+\end{document}

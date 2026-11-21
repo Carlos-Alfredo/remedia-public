@@ -4,7 +4,7 @@ PDF figures from `article/figures/` used in the IEEE OJEMB Technology manuscript
 
 | File | Manuscript role |
 |------|-----------------|
-| `visual_summary.pdf` | Page-1 visual summary |
+| `visual_summary.pdf` | Optional presentation graphic (not part of the OJEMB Technology article front matter) |
 | `chart_construction.pdf` | Methods — linked chart construction |
 | `prm_workup_overview.pdf` | Methods — seven-pass workup |
 | `prm_pass_loop.pdf` | Methods — per-focus loop |

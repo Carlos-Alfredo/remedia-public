@@ -65,4 +65,4 @@ optional_large_runs/      Notes on omitted large trees
 
 ## Citation
 
-Cite `https://github.com/Carlos-Alfredo/remedia-public` with the release tag or commit named in the manuscript bibliography (`remediapublic`).
+Cite `https://github.com/Carlos-Alfredo/remedia-public` (`remediapublic` in the manuscript bibliography).
