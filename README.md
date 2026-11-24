@@ -17,6 +17,7 @@ Every `\cite{remediapublic}` / Data Availability pointer in the manuscript maps 
 | Manuscript claim | Path |
 |------------------|------|
 | Full flag → action mappings | [`methods/catalog/flag_action_catalog.csv`](methods/catalog/flag_action_catalog.csv) ([JSON](methods/catalog/flag_action_catalog.json)) |
+| Prompt sheet (agent roles × segments × CONTEXT blocks) | [`methods/prompts/`](methods/prompts/) |
 | Worked example `scot_09_17` (pass 5 replacements → pass 6 lithium dose cut) | [`examples/scot_09_17/`](examples/scot_09_17/) |
 | Runtime / cost sample (5 runs × 3 notes) | [`pipeline_cost/complexity_sample/`](pipeline_cost/complexity_sample/) — means in [`table_means.csv`](pipeline_cost/complexity_sample/table_means.csv) |
 | Baseline wall time / USD (26 notes: 1356 s, ≈USD 0.14) | [`pipeline_cost/baseline_time_and_cost.json`](pipeline_cost/baseline_time_and_cost.json) |
@@ -54,6 +55,7 @@ evaluation/charts_data/   Plot-ready subset of tables/
 vignettes/clinical_notes/ Input notes scot_09_01–26
 model_outputs/            Pre-grade pipeline sheets
 methods/catalog/          Flag → verb catalog (44 flags)
+methods/prompts/          Prompt sheet: roles, segments, CONTEXT blocks
 methods/manuscript_appendix/  Optional full-row TeX
 pipeline_cost/            Baseline totals + complexity sample
 examples/scot_09_17/      Worked-example chart + PRM payloads
