@@ -231,32 +231,8 @@
     },
     {
       "prm": 7,
-      "dtp_flag": "patient_does_not_understand",
-      "primary_action": "optimize",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 7,
-      "dtp_flag": "patient_forgets",
-      "primary_action": "optimize",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 7,
-      "dtp_flag": "patient_prefers_not_to_take_optimize",
-      "primary_action": "optimize",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 7,
       "dtp_flag": "patient_prefers_not_to_take_replace",
       "primary_action": "replace",
-      "defer_to_prm": ""
-    },
-    {
-      "prm": 7,
-      "dtp_flag": "too_expensive_optimize",
-      "primary_action": "optimize",
       "defer_to_prm": ""
     },
     {

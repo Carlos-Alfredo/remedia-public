@@ -54,7 +54,7 @@ evaluation/tables/        Aggregates backing Results
 evaluation/charts_data/   Plot-ready subset of tables/
 vignettes/clinical_notes/ Input notes scot_09_01–26
 model_outputs/            Pre-grade pipeline sheets
-methods/catalog/          Flag → verb catalog (44 flags)
+methods/catalog/          Flag → verb catalog (40 flags)
 methods/prompts/          Prompt sheet: roles, segments, CONTEXT blocks
 methods/manuscript_appendix/  Optional full-row TeX
 pipeline_cost/            Baseline totals + complexity sample
